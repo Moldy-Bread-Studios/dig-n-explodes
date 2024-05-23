@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 383.33334
+        y: 384
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,9 +122,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 383.33334
+        y: 384
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,9 +143,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 383.33334
+        y: 384
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,9 +164,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 383.33334
+        y: 384
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,9 +185,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 383.33334
+        y: 384
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,9 +206,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 383.33334
+        y: 384
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 383.33334
+        x: 0
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_7
       rect:
         serializedVersion: 2
-        x: 176
-        y: 383.33334
+        x: 16
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_8
       rect:
         serializedVersion: 2
-        x: 192
-        y: 383.33334
+        x: 32
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 367.33334
+        x: 48
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_10
       rect:
         serializedVersion: 2
-        x: 16
-        y: 367.33334
+        x: 64
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 367.33334
+        x: 96
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_12
       rect:
         serializedVersion: 2
-        x: 48
-        y: 367.33334
+        x: 112
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 367.33334
+        x: 128
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_14
       rect:
         serializedVersion: 2
-        x: 96
-        y: 367.33334
+        x: 144
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_15
       rect:
         serializedVersion: 2
-        x: 112
-        y: 367.33334
+        x: 160
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_16
       rect:
         serializedVersion: 2
-        x: 128
-        y: 367.33334
+        x: 176
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +457,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_17
       rect:
         serializedVersion: 2
-        x: 144
-        y: 367.33334
+        x: 192
+        y: 368
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +478,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_18
       rect:
         serializedVersion: 2
-        x: 160
-        y: 367.33334
+        x: 0
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +499,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_19
       rect:
         serializedVersion: 2
-        x: 176
-        y: 367.33334
+        x: 16
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +520,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_20
       rect:
         serializedVersion: 2
-        x: 192
-        y: 367.33334
+        x: 32
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +541,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 351.33334
+        x: 48
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +562,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_22
       rect:
         serializedVersion: 2
-        x: 16
-        y: 351.33334
+        x: 96
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,10 +583,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_23
       rect:
         serializedVersion: 2
-        x: 32
-        y: 351.33334
+        x: 112
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_24
       rect:
         serializedVersion: 2
-        x: 48
-        y: 351.33334
+        x: 128
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,10 +625,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_25
       rect:
         serializedVersion: 2
-        x: 64
-        y: 351.33334
+        x: 144
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_26
       rect:
         serializedVersion: 2
-        x: 96
-        y: 351.33334
+        x: 160
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,10 +667,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_27
       rect:
         serializedVersion: 2
-        x: 112
-        y: 351.33334
+        x: 176
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_28
       rect:
         serializedVersion: 2
-        x: 128
-        y: 351.33334
+        x: 192
+        y: 352
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,10 +709,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_29
       rect:
         serializedVersion: 2
-        x: 144
-        y: 351.33334
+        x: 0
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,10 +730,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_30
       rect:
         serializedVersion: 2
-        x: 160
-        y: 351.33334
+        x: 16
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -751,10 +751,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_31
       rect:
         serializedVersion: 2
-        x: 176
-        y: 351.33334
+        x: 32
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +772,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_32
       rect:
         serializedVersion: 2
-        x: 192
-        y: 351.33334
+        x: 48
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +793,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 335.33334
+        x: 64
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -814,10 +814,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_34
       rect:
         serializedVersion: 2
-        x: 16
-        y: 335.33334
+        x: 96
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -835,10 +835,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_35
       rect:
         serializedVersion: 2
-        x: 32
-        y: 335.33334
+        x: 112
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,10 +856,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_36
       rect:
         serializedVersion: 2
-        x: 48
-        y: 335.33334
+        x: 144
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,10 +877,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_37
       rect:
         serializedVersion: 2
-        x: 64
-        y: 335.33334
+        x: 160
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_38
       rect:
         serializedVersion: 2
-        x: 96
-        y: 335.33334
+        x: 176
+        y: 336
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -919,10 +919,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_39
       rect:
         serializedVersion: 2
-        x: 112
-        y: 335.33334
+        x: 0
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,10 +940,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_40
       rect:
         serializedVersion: 2
-        x: 144
-        y: 335.33334
+        x: 16
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -961,10 +961,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_41
       rect:
         serializedVersion: 2
-        x: 160
-        y: 335.33334
+        x: 32
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -982,10 +982,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_42
       rect:
         serializedVersion: 2
-        x: 176
-        y: 335.33334
+        x: 48
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1003,10 +1003,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_43
       rect:
         serializedVersion: 2
-        x: 0
-        y: 319.33334
+        x: 64
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1024,10 +1024,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_44
       rect:
         serializedVersion: 2
-        x: 16
-        y: 319.33334
+        x: 96
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1045,10 +1045,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_45
       rect:
         serializedVersion: 2
-        x: 32
-        y: 319.33334
+        x: 112
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1066,10 +1066,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_46
       rect:
         serializedVersion: 2
-        x: 48
-        y: 319.33334
+        x: 144
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1087,10 +1087,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_47
       rect:
         serializedVersion: 2
-        x: 64
-        y: 319.33334
+        x: 160
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,10 +1108,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_48
       rect:
         serializedVersion: 2
-        x: 96
-        y: 319.33334
+        x: 176
+        y: 320
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1129,10 +1129,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_49
       rect:
         serializedVersion: 2
-        x: 112
-        y: 319.33334
+        x: 0
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,10 +1150,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_50
       rect:
         serializedVersion: 2
-        x: 144
-        y: 319.33334
+        x: 16
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1171,10 +1171,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_51
       rect:
         serializedVersion: 2
-        x: 160
-        y: 319.33334
+        x: 32
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1192,10 +1192,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_52
       rect:
         serializedVersion: 2
-        x: 176
-        y: 319.33334
+        x: 48
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1213,10 +1213,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_53
       rect:
         serializedVersion: 2
-        x: 0
-        y: 303.33334
+        x: 64
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1234,10 +1234,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_54
       rect:
         serializedVersion: 2
-        x: 16
-        y: 303.33334
+        x: 144
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1255,10 +1255,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_55
       rect:
         serializedVersion: 2
-        x: 32
-        y: 303.33334
+        x: 160
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1276,10 +1276,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_56
       rect:
         serializedVersion: 2
-        x: 48
-        y: 303.33334
+        x: 176
+        y: 304
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1297,10 +1297,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_57
       rect:
         serializedVersion: 2
-        x: 64
-        y: 303.33334
+        x: 0
+        y: 288
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1318,10 +1318,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_58
       rect:
         serializedVersion: 2
-        x: 144
-        y: 303.33334
+        x: 16
+        y: 288
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1339,10 +1339,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_59
       rect:
         serializedVersion: 2
-        x: 160
-        y: 303.33334
+        x: 32
+        y: 288
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1360,10 +1360,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_60
       rect:
         serializedVersion: 2
-        x: 176
-        y: 303.33334
+        x: 48
+        y: 288
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1381,10 +1381,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_61
       rect:
         serializedVersion: 2
-        x: 0
-        y: 287.33334
+        x: 64
+        y: 288
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1402,10 +1402,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_62
       rect:
         serializedVersion: 2
-        x: 16
-        y: 287.33334
+        x: 0
+        y: 272
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1423,10 +1423,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_63
       rect:
         serializedVersion: 2
-        x: 32
-        y: 287.33334
+        x: 16
+        y: 272
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1444,10 +1444,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_64
       rect:
         serializedVersion: 2
-        x: 48
-        y: 287.33334
+        x: 32
+        y: 272
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1465,10 +1465,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_65
       rect:
         serializedVersion: 2
-        x: 64
-        y: 287.33334
+        x: 48
+        y: 272
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1486,10 +1486,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_66
       rect:
         serializedVersion: 2
-        x: 0
-        y: 271.33334
+        x: 64
+        y: 272
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1507,10 +1507,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_67
       rect:
         serializedVersion: 2
-        x: 16
-        y: 271.33334
+        x: 0
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1528,10 +1528,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_68
       rect:
         serializedVersion: 2
-        x: 32
-        y: 271.33334
+        x: 16
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1549,10 +1549,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_69
       rect:
         serializedVersion: 2
-        x: 48
-        y: 271.33334
+        x: 32
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1570,10 +1570,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_70
       rect:
         serializedVersion: 2
-        x: 64
-        y: 271.33334
+        x: 48
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1591,10 +1591,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_71
       rect:
         serializedVersion: 2
-        x: 80
-        y: 271.33334
+        x: 64
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1612,10 +1612,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_72
       rect:
         serializedVersion: 2
-        x: 96
-        y: 271.33334
+        x: 80
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1633,10 +1633,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_73
       rect:
         serializedVersion: 2
-        x: 160
-        y: 271.33334
+        x: 96
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1654,10 +1654,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_74
       rect:
         serializedVersion: 2
-        x: 0
-        y: 255.33333
+        x: 112
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1675,10 +1675,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_75
       rect:
         serializedVersion: 2
-        x: 16
-        y: 255.33333
+        x: 128
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1696,10 +1696,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_76
       rect:
         serializedVersion: 2
-        x: 32
-        y: 255.33333
+        x: 144
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1717,10 +1717,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_77
       rect:
         serializedVersion: 2
-        x: 48
-        y: 255.33333
+        x: 160
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1738,10 +1738,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_78
       rect:
         serializedVersion: 2
-        x: 64
-        y: 255.33333
+        x: 192
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1759,10 +1759,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_79
       rect:
         serializedVersion: 2
-        x: 80
-        y: 255.33333
+        x: 208
+        y: 256
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1780,10 +1780,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_80
       rect:
         serializedVersion: 2
-        x: 96
-        y: 255.33333
+        x: 0
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1801,10 +1801,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_81
       rect:
         serializedVersion: 2
-        x: 112
-        y: 255.33333
+        x: 16
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1822,10 +1822,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_82
       rect:
         serializedVersion: 2
-        x: 128
-        y: 255.33333
+        x: 32
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1843,10 +1843,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_83
       rect:
         serializedVersion: 2
-        x: 144
-        y: 255.33333
+        x: 48
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1864,10 +1864,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_84
       rect:
         serializedVersion: 2
-        x: 160
-        y: 255.33333
+        x: 64
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1885,10 +1885,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_85
       rect:
         serializedVersion: 2
-        x: 192
-        y: 255.33333
+        x: 80
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1906,10 +1906,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_86
       rect:
         serializedVersion: 2
-        x: 208
-        y: 255.33333
+        x: 96
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1927,10 +1927,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_87
       rect:
         serializedVersion: 2
-        x: 0
-        y: 239.33333
+        x: 112
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1948,10 +1948,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_88
       rect:
         serializedVersion: 2
-        x: 16
-        y: 239.33333
+        x: 128
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1969,10 +1969,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_89
       rect:
         serializedVersion: 2
-        x: 32
-        y: 239.33333
+        x: 144
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1990,10 +1990,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_90
       rect:
         serializedVersion: 2
-        x: 48
-        y: 239.33333
+        x: 160
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2011,10 +2011,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_91
       rect:
         serializedVersion: 2
-        x: 64
-        y: 239.33333
+        x: 192
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2032,10 +2032,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_92
       rect:
         serializedVersion: 2
-        x: 80
-        y: 239.33333
+        x: 208
+        y: 240
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2053,10 +2053,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_93
       rect:
         serializedVersion: 2
-        x: 96
-        y: 239.33333
+        x: 0
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2074,10 +2074,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_94
       rect:
         serializedVersion: 2
-        x: 112
-        y: 239.33333
+        x: 16
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2095,10 +2095,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_95
       rect:
         serializedVersion: 2
-        x: 128
-        y: 239.33333
+        x: 32
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2116,10 +2116,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_96
       rect:
         serializedVersion: 2
-        x: 144
-        y: 239.33333
+        x: 48
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2137,10 +2137,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_97
       rect:
         serializedVersion: 2
-        x: 160
-        y: 239.33333
+        x: 64
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2158,10 +2158,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_98
       rect:
         serializedVersion: 2
-        x: 176
-        y: 239.33333
+        x: 80
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2179,10 +2179,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_99
       rect:
         serializedVersion: 2
-        x: 192
-        y: 239.33333
+        x: 96
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2200,10 +2200,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_100
       rect:
         serializedVersion: 2
-        x: 208
-        y: 239.33333
+        x: 112
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2221,10 +2221,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_101
       rect:
         serializedVersion: 2
-        x: 0
-        y: 223.33333
+        x: 128
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2242,10 +2242,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_102
       rect:
         serializedVersion: 2
-        x: 16
-        y: 223.33333
+        x: 160
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2263,10 +2263,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_103
       rect:
         serializedVersion: 2
-        x: 32
-        y: 223.33333
+        x: 176
+        y: 224
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2284,10 +2284,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_104
       rect:
         serializedVersion: 2
-        x: 48
-        y: 223.33333
+        x: 192
+        y: 208
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2305,10 +2305,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_105
       rect:
         serializedVersion: 2
-        x: 64
-        y: 223.33333
+        x: 224
+        y: 208
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2326,10 +2326,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_106
       rect:
         serializedVersion: 2
-        x: 80
-        y: 223.33333
+        x: 0
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2347,10 +2347,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_107
       rect:
         serializedVersion: 2
-        x: 96
-        y: 223.33333
+        x: 16
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2368,10 +2368,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_108
       rect:
         serializedVersion: 2
-        x: 112
-        y: 223.33333
+        x: 32
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2389,10 +2389,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_109
       rect:
         serializedVersion: 2
-        x: 128
-        y: 223.33333
+        x: 48
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2410,10 +2410,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_110
       rect:
         serializedVersion: 2
-        x: 160
-        y: 223.33333
+        x: 64
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2431,10 +2431,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_111
       rect:
         serializedVersion: 2
-        x: 176
-        y: 223.33333
+        x: 80
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2452,10 +2452,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_112
       rect:
         serializedVersion: 2
-        x: 0
-        y: 207.33333
+        x: 96
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2473,10 +2473,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_113
       rect:
         serializedVersion: 2
-        x: 16
-        y: 207.33333
+        x: 112
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2494,10 +2494,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_114
       rect:
         serializedVersion: 2
-        x: 32
-        y: 207.33333
+        x: 128
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2515,10 +2515,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_115
       rect:
         serializedVersion: 2
-        x: 48
-        y: 207.33333
+        x: 144
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2536,10 +2536,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_116
       rect:
         serializedVersion: 2
-        x: 64
-        y: 207.33333
+        x: 160
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2557,10 +2557,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_117
       rect:
         serializedVersion: 2
-        x: 80
-        y: 207.33333
+        x: 176
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2578,10 +2578,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_118
       rect:
         serializedVersion: 2
-        x: 96
-        y: 207.33333
+        x: 192
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2599,10 +2599,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_119
       rect:
         serializedVersion: 2
-        x: 112
-        y: 207.33333
+        x: 208
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2620,10 +2620,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_120
       rect:
         serializedVersion: 2
-        x: 128
-        y: 207.33333
+        x: 224
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2641,10 +2641,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_121
       rect:
         serializedVersion: 2
-        x: 192
-        y: 207.33333
+        x: 240
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2662,10 +2662,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_122
       rect:
         serializedVersion: 2
-        x: 208
-        y: 207.33333
+        x: 256
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2683,10 +2683,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_123
       rect:
         serializedVersion: 2
-        x: 224
-        y: 207.33333
+        x: 272
+        y: 192
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2705,9 +2705,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2726,9 +2726,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2747,9 +2747,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2768,9 +2768,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2789,9 +2789,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2810,9 +2810,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2831,9 +2831,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2852,9 +2852,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2873,9 +2873,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2894,9 +2894,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2915,9 +2915,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2936,9 +2936,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2957,9 +2957,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2978,9 +2978,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2999,9 +2999,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3020,9 +3020,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3041,9 +3041,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3062,9 +3062,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 191.33333
+        y: 176
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3083,9 +3083,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 175.33333
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3104,9 +3104,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 175.33333
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3125,9 +3125,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 175.33333
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3146,9 +3146,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 175.33333
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3167,9 +3167,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 175.33333
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3188,9 +3188,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 175.33333
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3209,9 +3209,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 175.33333
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3229,10 +3229,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_149
       rect:
         serializedVersion: 2
-        x: 112
-        y: 175.33333
+        x: 128
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3250,10 +3250,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_150
       rect:
         serializedVersion: 2
-        x: 128
-        y: 175.33333
+        x: 144
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3271,10 +3271,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_151
       rect:
         serializedVersion: 2
-        x: 144
-        y: 175.33333
+        x: 160
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3292,10 +3292,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_152
       rect:
         serializedVersion: 2
-        x: 160
-        y: 175.33333
+        x: 176
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3313,10 +3313,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_153
       rect:
         serializedVersion: 2
-        x: 176
-        y: 175.33333
+        x: 192
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3334,10 +3334,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_154
       rect:
         serializedVersion: 2
-        x: 192
-        y: 175.33333
+        x: 208
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3355,10 +3355,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_155
       rect:
         serializedVersion: 2
-        x: 208
-        y: 175.33333
+        x: 224
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3376,10 +3376,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_156
       rect:
         serializedVersion: 2
-        x: 224
-        y: 175.33333
+        x: 240
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3397,10 +3397,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_157
       rect:
         serializedVersion: 2
-        x: 240
-        y: 175.33333
+        x: 256
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3418,10 +3418,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_158
       rect:
         serializedVersion: 2
-        x: 256
-        y: 175.33333
+        x: 272
+        y: 160
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3439,10 +3439,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_159
       rect:
         serializedVersion: 2
-        x: 272
-        y: 175.33333
+        x: 0
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3460,10 +3460,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_160
       rect:
         serializedVersion: 2
-        x: 0
-        y: 159.33333
+        x: 32
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3481,10 +3481,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_161
       rect:
         serializedVersion: 2
-        x: 16
-        y: 159.33333
+        x: 48
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3502,10 +3502,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_162
       rect:
         serializedVersion: 2
-        x: 32
-        y: 159.33333
+        x: 64
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3523,10 +3523,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_163
       rect:
         serializedVersion: 2
-        x: 48
-        y: 159.33333
+        x: 80
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3544,10 +3544,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_164
       rect:
         serializedVersion: 2
-        x: 64
-        y: 159.33333
+        x: 96
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3565,10 +3565,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_165
       rect:
         serializedVersion: 2
-        x: 80
-        y: 159.33333
+        x: 128
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3586,10 +3586,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_166
       rect:
         serializedVersion: 2
-        x: 96
-        y: 159.33333
+        x: 144
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3607,10 +3607,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_167
       rect:
         serializedVersion: 2
-        x: 128
-        y: 159.33333
+        x: 160
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3628,10 +3628,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_168
       rect:
         serializedVersion: 2
-        x: 144
-        y: 159.33333
+        x: 240
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3649,10 +3649,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_169
       rect:
         serializedVersion: 2
-        x: 160
-        y: 159.33333
+        x: 256
+        y: 144
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3670,10 +3670,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_170
       rect:
         serializedVersion: 2
-        x: 176
-        y: 159.33333
+        x: 0
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3691,10 +3691,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_171
       rect:
         serializedVersion: 2
-        x: 192
-        y: 159.33333
+        x: 16
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3712,10 +3712,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_172
       rect:
         serializedVersion: 2
-        x: 208
-        y: 159.33333
+        x: 32
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3733,10 +3733,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_173
       rect:
         serializedVersion: 2
-        x: 224
-        y: 159.33333
+        x: 48
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3754,10 +3754,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_174
       rect:
         serializedVersion: 2
-        x: 240
-        y: 159.33333
+        x: 64
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3775,10 +3775,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_175
       rect:
         serializedVersion: 2
-        x: 256
-        y: 159.33333
+        x: 80
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3796,10 +3796,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_176
       rect:
         serializedVersion: 2
-        x: 272
-        y: 159.33333
+        x: 96
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3817,10 +3817,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_177
       rect:
         serializedVersion: 2
-        x: 0
-        y: 143.33333
+        x: 128
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3838,10 +3838,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_178
       rect:
         serializedVersion: 2
-        x: 16
-        y: 143.33333
+        x: 144
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3859,10 +3859,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_179
       rect:
         serializedVersion: 2
-        x: 32
-        y: 143.33333
+        x: 160
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3880,10 +3880,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_180
       rect:
         serializedVersion: 2
-        x: 48
-        y: 143.33333
+        x: 192
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3901,10 +3901,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_181
       rect:
         serializedVersion: 2
-        x: 64
-        y: 143.33333
+        x: 208
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3922,10 +3922,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_182
       rect:
         serializedVersion: 2
-        x: 80
-        y: 143.33333
+        x: 224
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3943,10 +3943,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_183
       rect:
         serializedVersion: 2
-        x: 96
-        y: 143.33333
+        x: 240
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3964,10 +3964,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_184
       rect:
         serializedVersion: 2
-        x: 128
-        y: 143.33333
+        x: 256
+        y: 128
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3985,10 +3985,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_185
       rect:
         serializedVersion: 2
-        x: 144
-        y: 143.33333
+        x: 0
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4006,10 +4006,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_186
       rect:
         serializedVersion: 2
-        x: 160
-        y: 143.33333
+        x: 16
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4027,10 +4027,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_187
       rect:
         serializedVersion: 2
-        x: 240
-        y: 143.33333
+        x: 32
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4048,10 +4048,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_188
       rect:
         serializedVersion: 2
-        x: 256
-        y: 143.33333
+        x: 64
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4069,10 +4069,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_189
       rect:
         serializedVersion: 2
-        x: 0
-        y: 127.333336
+        x: 96
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4090,10 +4090,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_190
       rect:
         serializedVersion: 2
-        x: 16
-        y: 127.333336
+        x: 112
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4111,10 +4111,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_191
       rect:
         serializedVersion: 2
-        x: 32
-        y: 127.333336
+        x: 128
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4132,10 +4132,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_192
       rect:
         serializedVersion: 2
-        x: 48
-        y: 127.333336
+        x: 144
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4153,10 +4153,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_193
       rect:
         serializedVersion: 2
-        x: 64
-        y: 127.333336
+        x: 160
+        y: 112
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4174,10 +4174,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_194
       rect:
         serializedVersion: 2
-        x: 80
-        y: 127.333336
+        x: 0
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4195,10 +4195,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_195
       rect:
         serializedVersion: 2
-        x: 96
-        y: 127.333336
+        x: 16
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4216,10 +4216,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_196
       rect:
         serializedVersion: 2
-        x: 112
-        y: 127.333336
+        x: 32
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4237,10 +4237,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_197
       rect:
         serializedVersion: 2
-        x: 128
-        y: 127.333336
+        x: 96
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4258,10 +4258,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_198
       rect:
         serializedVersion: 2
-        x: 144
-        y: 127.333336
+        x: 112
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4279,10 +4279,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_199
       rect:
         serializedVersion: 2
-        x: 160
-        y: 127.333336
+        x: 128
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4301,9 +4301,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 127.333336
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4321,10 +4321,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_201
       rect:
         serializedVersion: 2
-        x: 208
-        y: 127.333336
+        x: 224
+        y: 96
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4342,10 +4342,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_202
       rect:
         serializedVersion: 2
-        x: 224
-        y: 127.333336
+        x: 0
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4363,10 +4363,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_203
       rect:
         serializedVersion: 2
-        x: 240
-        y: 127.333336
+        x: 16
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4384,10 +4384,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_204
       rect:
         serializedVersion: 2
-        x: 256
-        y: 127.333336
+        x: 32
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4405,10 +4405,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_205
       rect:
         serializedVersion: 2
-        x: 0
-        y: 111.333336
+        x: 48
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4426,10 +4426,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_206
       rect:
         serializedVersion: 2
-        x: 16
-        y: 111.333336
+        x: 64
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4447,10 +4447,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_207
       rect:
         serializedVersion: 2
-        x: 32
-        y: 111.333336
+        x: 80
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4468,10 +4468,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_208
       rect:
         serializedVersion: 2
-        x: 64
-        y: 111.333336
+        x: 96
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4489,10 +4489,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_209
       rect:
         serializedVersion: 2
-        x: 96
-        y: 111.333336
+        x: 112
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4510,10 +4510,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_210
       rect:
         serializedVersion: 2
-        x: 112
-        y: 111.333336
+        x: 128
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4531,10 +4531,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_211
       rect:
         serializedVersion: 2
-        x: 128
-        y: 111.333336
+        x: 144
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4552,10 +4552,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_212
       rect:
         serializedVersion: 2
-        x: 144
-        y: 111.333336
+        x: 160
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4573,10 +4573,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_213
       rect:
         serializedVersion: 2
-        x: 160
-        y: 111.333336
+        x: 176
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4594,10 +4594,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_214
       rect:
         serializedVersion: 2
-        x: 0
-        y: 95.333336
+        x: 192
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4615,10 +4615,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_215
       rect:
         serializedVersion: 2
-        x: 16
-        y: 95.333336
+        x: 208
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4636,10 +4636,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_216
       rect:
         serializedVersion: 2
-        x: 32
-        y: 95.333336
+        x: 224
+        y: 80
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4657,10 +4657,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_217
       rect:
         serializedVersion: 2
-        x: 48
-        y: 95.333336
+        x: 0
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4678,10 +4678,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_218
       rect:
         serializedVersion: 2
-        x: 64
-        y: 95.333336
+        x: 16
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4699,10 +4699,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_219
       rect:
         serializedVersion: 2
-        x: 80
-        y: 95.333336
+        x: 32
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4720,10 +4720,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_220
       rect:
         serializedVersion: 2
-        x: 96
-        y: 95.333336
+        x: 48
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4741,10 +4741,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_221
       rect:
         serializedVersion: 2
-        x: 112
-        y: 95.333336
+        x: 64
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4762,10 +4762,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_222
       rect:
         serializedVersion: 2
-        x: 128
-        y: 95.333336
+        x: 80
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4783,10 +4783,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_223
       rect:
         serializedVersion: 2
-        x: 192
-        y: 95.333336
+        x: 96
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4804,10 +4804,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_224
       rect:
         serializedVersion: 2
-        x: 208
-        y: 95.333336
+        x: 112
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4825,10 +4825,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_225
       rect:
         serializedVersion: 2
-        x: 224
-        y: 95.333336
+        x: 128
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4846,10 +4846,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_226
       rect:
         serializedVersion: 2
-        x: 0
-        y: 79.333336
+        x: 144
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4867,10 +4867,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_227
       rect:
         serializedVersion: 2
-        x: 16
-        y: 79.333336
+        x: 160
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4888,10 +4888,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_228
       rect:
         serializedVersion: 2
-        x: 32
-        y: 79.333336
+        x: 176
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4909,10 +4909,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_229
       rect:
         serializedVersion: 2
-        x: 48
-        y: 79.333336
+        x: 192
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4930,10 +4930,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_230
       rect:
         serializedVersion: 2
-        x: 64
-        y: 79.333336
+        x: 208
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4951,10 +4951,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_231
       rect:
         serializedVersion: 2
-        x: 80
-        y: 79.333336
+        x: 224
+        y: 64
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4972,10 +4972,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_232
       rect:
         serializedVersion: 2
-        x: 96
-        y: 79.333336
+        x: 0
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4993,10 +4993,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_233
       rect:
         serializedVersion: 2
-        x: 112
-        y: 79.333336
+        x: 16
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5014,10 +5014,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_234
       rect:
         serializedVersion: 2
-        x: 128
-        y: 79.333336
+        x: 32
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5035,10 +5035,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_235
       rect:
         serializedVersion: 2
-        x: 144
-        y: 79.333336
+        x: 48
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5056,10 +5056,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_236
       rect:
         serializedVersion: 2
-        x: 160
-        y: 79.333336
+        x: 64
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5077,10 +5077,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_237
       rect:
         serializedVersion: 2
-        x: 176
-        y: 79.333336
+        x: 80
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5098,10 +5098,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_238
       rect:
         serializedVersion: 2
-        x: 192
-        y: 79.333336
+        x: 96
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5119,10 +5119,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_239
       rect:
         serializedVersion: 2
-        x: 208
-        y: 79.333336
+        x: 112
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5140,10 +5140,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_240
       rect:
         serializedVersion: 2
-        x: 224
-        y: 79.333336
+        x: 128
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5161,10 +5161,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_241
       rect:
         serializedVersion: 2
-        x: 0
-        y: 63.333336
+        x: 144
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5182,10 +5182,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_242
       rect:
         serializedVersion: 2
-        x: 16
-        y: 63.333336
+        x: 160
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5203,10 +5203,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_243
       rect:
         serializedVersion: 2
-        x: 32
-        y: 63.333336
+        x: 176
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5224,10 +5224,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_244
       rect:
         serializedVersion: 2
-        x: 48
-        y: 63.333336
+        x: 192
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5245,10 +5245,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_245
       rect:
         serializedVersion: 2
-        x: 64
-        y: 63.333336
+        x: 208
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5266,10 +5266,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_246
       rect:
         serializedVersion: 2
-        x: 80
-        y: 63.333336
+        x: 224
+        y: 48
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5287,10 +5287,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_247
       rect:
         serializedVersion: 2
-        x: 96
-        y: 63.333336
+        x: 0
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5308,10 +5308,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_248
       rect:
         serializedVersion: 2
-        x: 112
-        y: 63.333336
+        x: 16
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5329,10 +5329,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_249
       rect:
         serializedVersion: 2
-        x: 128
-        y: 63.333336
+        x: 32
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5350,10 +5350,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_250
       rect:
         serializedVersion: 2
-        x: 144
-        y: 63.333336
+        x: 48
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5371,10 +5371,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_251
       rect:
         serializedVersion: 2
-        x: 160
-        y: 63.333336
+        x: 64
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5392,10 +5392,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_252
       rect:
         serializedVersion: 2
-        x: 176
-        y: 63.333336
+        x: 80
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5413,10 +5413,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_253
       rect:
         serializedVersion: 2
-        x: 192
-        y: 63.333336
+        x: 96
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5434,10 +5434,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_254
       rect:
         serializedVersion: 2
-        x: 208
-        y: 63.333336
+        x: 128
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5455,10 +5455,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_255
       rect:
         serializedVersion: 2
-        x: 224
-        y: 63.333336
+        x: 144
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5476,10 +5476,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_256
       rect:
         serializedVersion: 2
-        x: 0
-        y: 47.333336
+        x: 160
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5497,10 +5497,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_257
       rect:
         serializedVersion: 2
-        x: 16
-        y: 47.333336
+        x: 176
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5518,10 +5518,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_258
       rect:
         serializedVersion: 2
-        x: 32
-        y: 47.333336
+        x: 192
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5539,10 +5539,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_259
       rect:
         serializedVersion: 2
-        x: 48
-        y: 47.333336
+        x: 208
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5560,10 +5560,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_260
       rect:
         serializedVersion: 2
-        x: 64
-        y: 47.333336
+        x: 224
+        y: 32
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5581,10 +5581,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_261
       rect:
         serializedVersion: 2
-        x: 80
-        y: 47.333336
+        x: 0
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5602,10 +5602,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_262
       rect:
         serializedVersion: 2
-        x: 96
-        y: 47.333336
+        x: 16
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5623,10 +5623,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_263
       rect:
         serializedVersion: 2
-        x: 112
-        y: 47.333336
+        x: 32
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5644,10 +5644,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_264
       rect:
         serializedVersion: 2
-        x: 128
-        y: 47.333336
+        x: 48
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5665,10 +5665,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_265
       rect:
         serializedVersion: 2
-        x: 144
-        y: 47.333336
+        x: 64
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5686,10 +5686,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_266
       rect:
         serializedVersion: 2
-        x: 160
-        y: 47.333336
+        x: 80
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5707,10 +5707,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_267
       rect:
         serializedVersion: 2
-        x: 176
-        y: 47.333336
+        x: 96
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5728,10 +5728,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_268
       rect:
         serializedVersion: 2
-        x: 192
-        y: 47.333336
+        x: 112
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5749,10 +5749,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_269
       rect:
         serializedVersion: 2
-        x: 208
-        y: 47.333336
+        x: 128
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5770,10 +5770,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_270
       rect:
         serializedVersion: 2
-        x: 224
-        y: 47.333336
+        x: 144
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5791,10 +5791,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_271
       rect:
         serializedVersion: 2
-        x: 0
-        y: 31.333334
+        x: 160
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5812,10 +5812,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_272
       rect:
         serializedVersion: 2
-        x: 16
-        y: 31.333334
+        x: 176
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5833,10 +5833,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_273
       rect:
         serializedVersion: 2
-        x: 32
-        y: 31.333334
+        x: 192
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5854,10 +5854,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_274
       rect:
         serializedVersion: 2
-        x: 48
-        y: 31.333334
+        x: 208
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5875,10 +5875,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_275
       rect:
         serializedVersion: 2
-        x: 64
-        y: 31.333334
+        x: 224
+        y: 16
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5896,10 +5896,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_276
       rect:
         serializedVersion: 2
-        x: 80
-        y: 31.333334
+        x: 48
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5917,10 +5917,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_277
       rect:
         serializedVersion: 2
-        x: 96
-        y: 31.333334
+        x: 64
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5938,10 +5938,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_278
       rect:
         serializedVersion: 2
-        x: 112
-        y: 31.333334
+        x: 80
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5959,10 +5959,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_279
       rect:
         serializedVersion: 2
-        x: 128
-        y: 31.333334
+        x: 144
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5980,10 +5980,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_280
       rect:
         serializedVersion: 2
-        x: 144
-        y: 31.333334
+        x: 160
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6001,10 +6001,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_281
       rect:
         serializedVersion: 2
-        x: 160
-        y: 31.333334
+        x: 176
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6022,10 +6022,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_282
       rect:
         serializedVersion: 2
-        x: 176
-        y: 31.333334
+        x: 192
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6043,10 +6043,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_283
       rect:
         serializedVersion: 2
-        x: 192
-        y: 31.333334
+        x: 208
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6064,10 +6064,10 @@ TextureImporter:
       name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_284
       rect:
         serializedVersion: 2
-        x: 208
-        y: 31.333334
+        x: 224
+        y: 0
         width: 16
-        height: 16.666666
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6077,342 +6077,6 @@ TextureImporter:
       bones: []
       spriteID: 92929e4e10a84ed45b086b3fc1ef11a9
       internalID: 431424737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_285
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 31.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b68129f4fcbb038428de22cc2f5a10ca
-      internalID: -1091921080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_286
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db93b76d24bda274c8e2c8a6cc46de57
-      internalID: 995521339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_287
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a332035ed0d7eb4bb78bc612545fd36
-      internalID: 869071543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_288
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 773bc6a25ca9b8c4f9fd13e861b2d7ad
-      internalID: -1573524541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_289
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e2894821536da34ba691acb2ab4d938
-      internalID: 252657113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_290
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5745a6fa887121741b3526e9f65bfcff
-      internalID: 2087322091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_291
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f107ec5a1184b064285145ddca86fc99
-      internalID: -1650288364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_292
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb81488aaa183624cad3f9956c923fc9
-      internalID: 1556384412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_293
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1d392d44ee3f614a8de39e46c983df2
-      internalID: -2058800073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_294
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b455e509f386d0499a8f89ddc6de039
-      internalID: -1826543695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_295
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ceb339977147bec40a70b096d9d37fb9
-      internalID: 1826272670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_296
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c82dc13be7e40d41b25b25bb4ab6299
-      internalID: 285792770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_297
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 546fe3f08a1278642b8b91e5f9d2a676
-      internalID: -1028027036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_298
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49fb177249ce56645a6050a25f05acc3
-      internalID: -1520715900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_299
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d21a5a350d7f2e498dee2d846bd5ecd
-      internalID: -1128127549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141_300
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 15.333334
-        width: 16
-        height: 16.666666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd535fb8745f8c14f8901ef4c66c76a9
-      internalID: -1808252020
       vertices: []
       indices: 
       edges: []
@@ -6635,25 +6299,9 @@ TextureImporter:
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_282: -165753465
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_283: -47142976
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_284: 431424737
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_285: -1091921080
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_286: 995521339
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_287: 869071543
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_288: -1573524541
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_289: 252657113
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_29: 317068397
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_290: 2087322091
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_291: -1650288364
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_292: 1556384412
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_293: -2058800073
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_294: -1826543695
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_295: 1826272670
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_296: 285792770
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_297: -1028027036
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_298: -1520715900
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_299: -1128127549
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_3: 226174376
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_30: -1969970710
-      dot_day18___dark_ruins_tileset_by_phyromatical_das9141_300: -1808252020
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_31: 1328384535
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_32: -664883114
       dot_day18___dark_ruins_tileset_by_phyromatical_das9141_33: -1095481600
