@@ -4,56 +4,61 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public Transform sla;
-    public Transform sla2;
-    public float moveSpeed = 3f;
-    private Animator animator;
+    
+    public Transform targetA;
+    public Transform targetB;
 
-    private Rigidbody2D rb;
-    private Transform currentTarget;
-    private Vector3 scale;
-
+    private Transform targetOfficial;
+    public float velocidade = 1.3f;
+    public SpriteRenderer sr;
+    private Animator movimento;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        currentTarget = sla;
-        scale = transform.localScale;
-
+        targetOfficial = targetA;
+        movimento = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        MoveTowardsTarget();
-
-    }
-
-    private void MoveTowardsTarget()
-    {
-        Vector3 curTargetHorizontal = new Vector2(currentTarget.position.x, transform.position.y);
-        Vector2 direction = (curTargetHorizontal - transform.position).normalized;
-
-        transform.position += (Vector3)direction * moveSpeed * Time.deltaTime;
-
-        if (Vector2.Distance(curTargetHorizontal, transform.position) <= 0.2f)
+        if (targetOfficial == targetA && Vector2.Distance(transform.position, targetA.position) < 0.1f) 
         {
-            SwitchTarget();
+            targetOfficial = targetB;
         }
-    }
-
-    private void SwitchTarget()
-    {
-        if (currentTarget == sla)
+        if (targetOfficial == targetB && Vector2.Distance(transform.position, targetB.position) < 0.1f)
         {
-            currentTarget = sla2;
+            targetOfficial = targetA;
+        }
+
+        transform.position = Vector2.MoveTowards(transform.position, targetOfficial.position, velocidade * Time.deltaTime);
+
+        // Ajustar a orientação do sprite
+        if (transform.position.x > targetOfficial.position.x)
+        {
+            sr.flipX = false;
         }
         else
         {
-            currentTarget = sla;
-            transform.localScale = scale;
+            sr.flipX = true;
+        }
 
+        // Definir a animação de movimento
+        movimento.SetBool("isWalking", true);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Reagir à colisão mudando o destino
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            if (targetOfficial == targetA)
+            {
+                targetOfficial = targetB;
+            }
+            else
+            {
+                targetOfficial = targetA;
+            }
         }
     }
     

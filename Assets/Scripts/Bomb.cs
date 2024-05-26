@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
+
     public GameObject bomba;  // Referência ao prefab da bomba
     public KeyCode placeBombKey = KeyCode.Space;  // Tecla para colocar a bomba
     public float gridSize = 1f;  // Ajuste este valor para o tamanho da sua grade
@@ -13,7 +14,8 @@ public class Bomb : MonoBehaviour
     public float explosionRadius = 0.5f; // Raio da explosão
     public LayerMask solidObjectsLayer; // Camada dos objetos sólidos
 
-     private void OnEnable()
+
+    private void OnEnable()
     {
         bombRestantes = quantidadeBomb;
     }
@@ -21,8 +23,8 @@ public class Bomb : MonoBehaviour
 
     void Update()
     {
-        if(bombRestantes > 0 && Input.GetKeyDown(placeBombKey)) // se o seu invetario tiver mais bombas e apertar o espaço ele ativa
-        { 
+        if (bombRestantes > 0 && Input.GetKeyDown(placeBombKey)) // se o seu invetario tiver mais bombas e apertar o espaço ele ativa
+        {
             StartCoroutine(PlaceBomb());
         }
     }
