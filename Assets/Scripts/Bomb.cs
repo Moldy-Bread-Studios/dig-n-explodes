@@ -11,8 +11,13 @@ public class Bomb : MonoBehaviour
     public float timeBomb = 3f; //tempo para explodir
     public int quantidadeBomb = 1; //quantidade de bombas
     private int bombRestantes; //bomba restantes no inventario
-    public float explosionRadius = 0.5f; // Raio da explosão
     public LayerMask solidObjectsLayer; // Camada dos objetos sólidos
+
+    //colisoes
+
+    public GameObject ColisaoA;
+    public GameObject ColisaoB;
+
 
 
     private void OnEnable()
@@ -46,17 +51,16 @@ public class Bomb : MonoBehaviour
         bombRestantes--;
 
         yield return new WaitForSeconds(timeBomb);
-
-        // Encontra objetos sólidos na área da explosão
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(playerPosition, explosionRadius, solidObjectsLayer);
-
-        // Destroi os objetos sólidos encontrados
-        foreach (Collider2D collider in colliders)
-        {
-            Destroy(collider.gameObject);
-        }
-
+       
         Destroy(bomb);
         bombRestantes++;
+
+        GameObject A = Instantiate(ColisaoA, alignedPosition, Quaternion.identity);
+        GameObject B = Instantiate(ColisaoB, alignedPosition, Quaternion.identity);
+
+        yield return new WaitForSeconds(1);
+
+        Destroy(A);
+        Destroy(B);
     }
 }
