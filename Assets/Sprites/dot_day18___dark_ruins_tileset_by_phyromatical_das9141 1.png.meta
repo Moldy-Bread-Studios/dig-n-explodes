@@ -1,0 +1,6384 @@
+fileFormatVersion: 2
+guid: b01c160b76885bd45a2d5fb2f26dfd0d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab83849be4d32942b25a9a6edc35710
+      internalID: -84178989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80d824c43a5012448c0cc0c0419e016
+      internalID: -164991489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d89b91ee3440ef4bbc04802bdfa30ca
+      internalID: 1305572306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2373edaf5dd4748b4799e6d45928f0
+      internalID: 786408769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8431b5f8ce622499e7fe99b3d20130
+      internalID: 66932337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c6bd5b77329f1459b1785e0a0acf11
+      internalID: 1073921937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edb5bde5c523c741a7a6ad3af2e7693
+      internalID: 742373871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1591eba56bd2cfb4bb20c7bd18475ea0
+      internalID: -401232251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f169720256ddc41b7b2350362f75e6
+      internalID: -554402633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c5a65d7332d5a4fb96af615aff3eeb
+      internalID: -652799945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0dbc16b169e424b9fbcfbe1cc782d4
+      internalID: 590860118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bcd1fa61383e3429efaa570ff96f24
+      internalID: -769909266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1065373a3829745ae27068ede6667b
+      internalID: 1139265226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b691dbe8c6dd54f8f3c6858f5fd739
+      internalID: -530365689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af969638154f1e64eb912facff6ac6cc
+      internalID: -508921574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e758db692b7fd742a61bec814e54808
+      internalID: 376034000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0824ca548517ed24b8220596d81a08b5
+      internalID: 638830298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28a55e2757e8074585bc5b0a774c8ea
+      internalID: 1139922456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dee5d9b870ddf40ac72a6b483b830a
+      internalID: -32465352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48285f8721d26674d870fb7be274fe7c
+      internalID: -2121659351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466858e305f11f24d84497350463a234
+      internalID: -840433819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15566c02041b6c4b8d4a8611a371339
+      internalID: 77147154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd7bab2282d5ca4b920b8462323ad2c
+      internalID: -1505655332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2cc2b6fb44ef74b94fd30d0585217f
+      internalID: 1110201607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294322bd19917e645a7aadf5680fcdcd
+      internalID: 2141442388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca4327af8ba14645878125c72992338
+      internalID: -1415139229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacbdc67cd68d5343be175138d81ff7e
+      internalID: 844960905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05f6f1c6a75884b98bed850519fe5c
+      internalID: -1127139284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e64976c7475704f991b71268e2863b
+      internalID: 1785504866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608951201649d0641b4c84c6f7a23bf6
+      internalID: 108991061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a968115bdd49c0840a28e228ed0bc627
+      internalID: 2123983321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a778b1f2b6c991438498f45f78ddca5
+      internalID: -518355391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f32ed4ac59b53e4f8a51f5723be80a7
+      internalID: 42679525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67bc43bb975c93488a581d22d6ba714
+      internalID: 1582811970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d12ad2fc9e6764b83a004d364af5ef
+      internalID: 254831991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7925a1d5418cea43ad3f75ba7275367
+      internalID: 1963693561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d70703d241354b98ddc68c2709aeb
+      internalID: -1559114689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02da03b275f2ac540846523103037182
+      internalID: 48778175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d20c7408eb7a841b781ca3cdc75a83
+      internalID: -859755916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e61caeb4f204de4cb00815afbb63c66
+      internalID: 146704922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0060165db8559814c90c3930034ee58b
+      internalID: 1882455879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a24caf44be1153488399d88a8cb3d4e
+      internalID: -1189211560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3122552b4585d58469861d846c6e8ccb
+      internalID: 475973595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308b5ae0efb570d44a00f6c3d87cdc3d
+      internalID: 1060986144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4cae8a667701348922d7a07db1ad0c
+      internalID: 1306427894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fb0301fc40d4c4ebf39e6592d5020c
+      internalID: 735762114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257806d7567d4df4ab99fbcad787fd05
+      internalID: -536661480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea13e922ddf95d348b23fef4db058075
+      internalID: -442254474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff38b45fdf3ec64bbfe7f7053bdaaee
+      internalID: 103213463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eb41e71e482c846acf46fee4924aed
+      internalID: 1289950609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197ece57b4bda434f8fd782de3cc1ed1
+      internalID: -1250858653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59a3513f07243142973eabc804adf91
+      internalID: 1980377646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183596b1c86c6204190355c322acc471
+      internalID: 76193998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97bbd669d7336747b41edb4fbf21e74
+      internalID: 808321306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fa2bb6909050347bfebc0183a1517c
+      internalID: 1378207794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca96b7edb18e6fe4280a2afa124f8435
+      internalID: 1237364868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae49c2a23ce5f642862384d71612319
+      internalID: 562310310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0d763cfa146274cbe8e21fcc6c3c23
+      internalID: -986854919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f896fae665f0442998f19602254afc
+      internalID: -359938146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90ae1b5192cc514a8ae3cb677a9655f
+      internalID: 763061805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9bb6aa983216845b2531b65b9f2085
+      internalID: 1857271181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b500734f742393c438943b4eb4655cfd
+      internalID: 729848180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42906e2e90071f14a80dcd014c0d3b61
+      internalID: -1709889069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714d27d32b4bcb548aebbc17f577705b
+      internalID: 269764438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcd803a92076464aaeef2c9b765a858
+      internalID: 1880578292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb7aa4ee9251b49a6cc8f80d963cfa
+      internalID: 274868391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6d04555935fe74996415b5f1ed7ac3
+      internalID: -1882531214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c499ec4ba274ff7429956ebfc3395489
+      internalID: -1449942080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a219bfc96e58ac47ab682e62445cc97
+      internalID: -1922984971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_69
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade2f2ec08de1d846b84eebf23c2c5ea
+      internalID: -205674466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_70
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41111ef06615b04448e0c3a995b37686
+      internalID: 211182143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cf0c8f5b8b9b74b88da47aa7d21cd3
+      internalID: -75797921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_72
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d831ea29655564799caf7a6dd8bcf0
+      internalID: -808806604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0a3372cc3291d49bed3bd112acf992
+      internalID: -1041871958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_74
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f15a686e65148142896ed85f7ccf8c8
+      internalID: 913364002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_75
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f65e798742893469c31922df7f15c0
+      internalID: 628029661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_76
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a590a70bdbf4243b7e7d8c8900cfd1
+      internalID: -1005583865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bfd809cfc305d459e0543e98e701e1
+      internalID: 640575574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcac7d70dc7ce7469ed2ec784d3d2e4
+      internalID: 1402709504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_79
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3e685bf8870694fa02d87bf50e4933
+      internalID: 1528009183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62deafae75eba52428f847383ea6072b
+      internalID: -237249192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354cf6a6f3968034abb0cb92c9f1a5da
+      internalID: 402661558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fd89000e276194fb895fe1d3d2e9d8
+      internalID: -1305565747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b0fc20da832d9429513c9ac4b27734
+      internalID: 50798844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169f0bb0ce07f874e9b04786e75ec0df
+      internalID: -765580663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f440da6b3d7868a4398feb57c3eca55c
+      internalID: 182709787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7430ee538d7c86041a2efa9cfca0e6f0
+      internalID: -292868159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bee74005144d4041a44b80fa7c073d0
+      internalID: -1239495513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a99b004df5329646974832577d0df35
+      internalID: 1213505201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72fe7392aff737428d4e0876594304e
+      internalID: -1426994993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398ff3b05f05a2e45afb4cdde93db114
+      internalID: 212501165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c61828c9c668c4a83d82376c7f2efa
+      internalID: -679881829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_92
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4829a1617e7d947ad39a382cf063d7
+      internalID: -1999603009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae4244b2307bee4db48f11c68b8cd53
+      internalID: -609242103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_94
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b60e6d9d4e0844ea19c91c5eea7d23
+      internalID: 798310523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_95
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c4bafd83689ab4788f4bbdfe4fa1e1
+      internalID: -1979476036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_96
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb38946c6c205543909e00b31e11c97
+      internalID: 1775055706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104280c12b26ce246b01f9b6caad4416
+      internalID: -2061645459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626b566c14bb8a147ba6266056af5481
+      internalID: 1717915297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29b457031e76964e8a7f3cd68ab8c87
+      internalID: -963479264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_100
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097a38ab85016ea4281d606b1df87f0e
+      internalID: -283545037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e908b69062d84a64587249f649f8e102
+      internalID: 1347010805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa6538ac7712ee4995c947f12a259a0
+      internalID: -411553038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_103
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7027d0be156284a8f28be9dd573c11
+      internalID: -1617688537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9061d9245c3d77a4abba9d1035ae9656
+      internalID: 708477969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_105
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb5cdf0c5f4d114b9c35e4e30ce6a46
+      internalID: -2023808145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec1bfdcf9b14134d90fe6119b9f27b4
+      internalID: -1021654958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_107
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070fc28308132ab439292322dd6a009b
+      internalID: 330072794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_108
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed6b10f4ec1c6c4790a0f0ba86764a6
+      internalID: 710859981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cfdb8a7e707d24c83d3eb57ef26f0c
+      internalID: -262103622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a0ff51ca671524c847bfbd393f6d59
+      internalID: 1934998236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_111
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7176a589962e4499ae65bef7f8559b
+      internalID: 1101900664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c669e434bf19e54299af7c0b1fd1723
+      internalID: -1951180931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_113
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0770fe16bc902e84e9765f623804db8a
+      internalID: 1897574318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bb358514a246f4592a4f344b585cfd
+      internalID: 291886282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_115
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f839fc1e1df8f04caa5155c74050157
+      internalID: -1892996675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b722691da592014ebd394727bc1e245
+      internalID: -1497174933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_117
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29b15b29dbc4124b85a4341d713b517
+      internalID: 542022754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ad6ced661d9541a8c74cae1bfa9b5
+      internalID: 592725490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_119
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069e94bfc5bcca843b73d96375218b3f
+      internalID: 1503482340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_120
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9acf667117c2ca4582af054e7c4f273
+      internalID: 250247789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_121
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1543222e6ce97634fbc6efcfc8c53acf
+      internalID: -130094932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f872fad463255489eba4a133ce2bf3
+      internalID: -1364212557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_123
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee11d2e9777bac4890af94f6f3717b9
+      internalID: -1979787999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6c5d6a18aa9954a928035e5924b515
+      internalID: 276989719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19522fe3473f69b41adcd3dd617a50bf
+      internalID: 1379170098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cc7b8c96b7a974188ef09f0e0b718c
+      internalID: 257829172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1675869c4b604f4498e9381a1b3fcdcb
+      internalID: 1008775213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d58088d2ece8c4aa69089961f71f9a
+      internalID: -1646838036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe68fbcba771a11479c82b7d1da4f515
+      internalID: -906449861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51823c30ed07ae245940813b2ee2671c
+      internalID: 1854050044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b081772271048418923cbcd7ce20c5
+      internalID: 1687431431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eca936036f5ac4ca7f89e054ea4e20
+      internalID: 679256722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7845b53a5d0cee84f86544ae66334fd6
+      internalID: -491590013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b9d4c0829c6347b2c7456bbe359fb
+      internalID: -304642463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a73169186a7a9b4baa376038fa5bfba
+      internalID: 379076703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14969a7b8ffe32439814b041358a31d
+      internalID: 1121565748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_137
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b877cac7b825a48a87a2c08140cd11
+      internalID: 826405987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_138
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c9ff8fe3bd5214081ba5ee0d3c19fd
+      internalID: 1658974599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_139
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba44b7d60ec9e1d468e4232f331e1591
+      internalID: -2002432142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_140
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee102a44dd936345bbf08ef4e9dc90c
+      internalID: -1965473479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ff9697ce48d554c94d4eb0b0a8d98a
+      internalID: 1967850739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563ba0cf87b793d46bd73df0b022619d
+      internalID: -514674148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_143
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dec1c88cd680f44b8c4626932247f25
+      internalID: -808065003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_144
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0622144e9a4b9f046afc14a69b1feb33
+      internalID: 1807101518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_145
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee51c2ce3e6971b4b824a1215b46595d
+      internalID: 740799111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966da5d3a4affb74d97f7db9483f89b9
+      internalID: -1849877710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e3fd1540fd1764a8c794642d474964
+      internalID: -881764207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_148
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2166baf30343aa845bb34296bd33651d
+      internalID: 1174266144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7f70f8c6e715048ad59f7085da222a
+      internalID: -1218635913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_150
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb59ef98f05b27499637deaa50138e8
+      internalID: -362028283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_151
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e967a81aaafa25c4c88bef6758bbb72a
+      internalID: 1735244789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_152
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f115af0ec31b9140b805f5352c3a14c
+      internalID: 458106358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_153
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2017bc3ada23a54f84baa5937a06586
+      internalID: -852713749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_154
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4411c0cc101aa2848aa07bdc66e40abe
+      internalID: -828519197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_155
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e5aaf84b9320f40a376f3fbad334d1
+      internalID: 1204038515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daba96b60a8d89844b5d3d527a7c38a9
+      internalID: -18351542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_157
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117428778b319124d90792a3d9024e58
+      internalID: 29388817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_158
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448fc340a3c07f84baed4bcd6013e310
+      internalID: -298732993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473f8c9647e1144419de335960665399
+      internalID: 175834955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_160
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e7149a4b82bff428d84a6d6147ae45
+      internalID: 1166992170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_161
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e0f07d9eb42b4f88fbb43ecc93677
+      internalID: 168237977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101e00aea50c4b346971ad3ae5df459a
+      internalID: 1074680071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_163
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ec854a9744184daf0469427c2c77e
+      internalID: 1530218828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_164
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a561abd8e6f487b4cbe9780390f97863
+      internalID: -5320519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_165
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49366743b476b51499b84e301c56e385
+      internalID: 1140058131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_166
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6085328d2fd6d41a88c4385f8a0bbd
+      internalID: 1559456594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_167
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b739d0417306bb04886526c4cad10d13
+      internalID: -655026100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_168
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7add25f6370aa6b43a6207ac6ab1ca5c
+      internalID: -1785494295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_169
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa8ad19eac7d4348bed51b226164bdb
+      internalID: -1835962040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0a8942a944b854daa06e4a2e2c7b08
+      internalID: -907941383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_171
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763613c56e82ac4e9598f780d054821
+      internalID: 438129333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_172
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248527d357a9cff42905dbbcdc8d3603
+      internalID: -815041552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_173
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd176098da0ab4eb63e7c27f8ca81d
+      internalID: -98137221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6f405a24252eb44be444989ac0c518
+      internalID: -1368447447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_175
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5662ca938618b814db11a51ddd11042c
+      internalID: 1677387445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_176
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd414ac9e48db4b49b2ccee86f1767e0
+      internalID: -1218259402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_177
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9f68b05c04e0543b35c7d10df8edf8
+      internalID: -1302145152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_178
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f39ee6e23a62984a9d5438ec0a1b874
+      internalID: -1832256271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_179
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75d7485abc421b429053883b936d299
+      internalID: 1180845356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_180
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c672197c46c8f44a66886e5c038e51
+      internalID: -2019083554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_181
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff019c0430e0654191a45f2d652c761
+      internalID: 283923389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_182
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbb63ffdfa4aa74f9d8cb5ee7b2f4cb
+      internalID: 1391454247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_183
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8040329d07306f94fbd29c5c89315380
+      internalID: 725413315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4385af9676c5c794c835108c7f33a747
+      internalID: -743085416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6504f2f66d6b463498aa8ecff60764ba
+      internalID: -934621950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_186
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933b3cd6345b6540b3aee1a67472521
+      internalID: -616339527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464ea9c33d6e4e54e90d737192c41393
+      internalID: 133832936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de50bf8838e5cc42bf6d97591524bdb
+      internalID: -953723346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_189
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b10091370919be45abb5c270c617f53
+      internalID: 1400700831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_190
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bcfc934671cd94396b1847165ca1ff
+      internalID: 140720901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_191
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0dfdc0ae648ba4ca017cd4771ad09a
+      internalID: 750740851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_192
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a80f77fb6a00945b376987a119ee76
+      internalID: 1457867228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_193
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77efa1161ce17fa48abdd53e088e3608
+      internalID: -634662430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fa057383047654fb5494f9f5e81e52
+      internalID: -1679719800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_195
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea77602ca7c474ca2115aacf41fa37
+      internalID: -1537393128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_196
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528200c3ffdd11148921066fc2c47f9f
+      internalID: 2011004970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_197
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397bc0191dd4efa48b0af8ce5ee1dfc0
+      internalID: -1573425989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_198
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64b48d7a227b1845a2f3d8da7197722
+      internalID: -2066539949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_199
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa3069d5e8fdf74eab0e7a08b58161b
+      internalID: -2142427059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_200
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8906fdea7f924340a1e4632a19dde5c
+      internalID: -1571866836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_201
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0347d95cc57e684093969f35a44af08
+      internalID: 756191525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_202
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3815034c360f8b4389f4099f796e2ba
+      internalID: -1273382488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_203
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b420a7d755098549821190c9dab914a
+      internalID: -1526886539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_204
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6531608b68b405d47ac881edd2101c9b
+      internalID: -497375874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_205
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7cc0ffff05fe844a9791a1ae76a3ee
+      internalID: -564375397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_206
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ee197abf254e54990bf6a1d724ed25
+      internalID: 788653101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_207
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d3ee1f02dfdc749b41da7f5a85fef5
+      internalID: -376470560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_208
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8422cd008b337ae4aa8beeeaa01b9658
+      internalID: 1498928696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_209
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc165b091c2a4647a053792088a0a2e
+      internalID: -1241644639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_210
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e6459a2ade0334883e485ab0720cb5
+      internalID: 468109250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_211
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aafc7cf18cf8b34d8c21b635c4ce9a3
+      internalID: -936430491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_212
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49fa3b316d13a540b90720abaebe19f
+      internalID: 255444414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_213
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde08c03a93b7d7478bb8daa57c15ca0
+      internalID: -1269277957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_214
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1972336eed66d438071de4545c2557
+      internalID: 441050323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_215
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6a3ada100cfb54c8e48f54f87f1618
+      internalID: -786651832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_216
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07a4b0f915c89a499d3e9614f27cd7e
+      internalID: -1424768593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1ceeeb228d99345823a6756b5a8849
+      internalID: 355763484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_218
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fde7dccdeafa74eb797cc725693c8e
+      internalID: 1500406071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_219
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5db7e6606fb568409d3a60b74cd3309
+      internalID: 273063253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_220
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2190300320cc74eb23c29203d745b6
+      internalID: -46819035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_221
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9113ef55c9f44cb44bc8232c60a3b3c0
+      internalID: 937438843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_222
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f70b22192edd204fbf079eb733f0592
+      internalID: 149049971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_223
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9801ddaaaf4234d90fd1e55b787ff0
+      internalID: -717455729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_224
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759fef4079ba8034ba987fa144d5a201
+      internalID: 1178060415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_225
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50306a166c13ea4c9faa649028a4701
+      internalID: -677971677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_226
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a41e2240a6b324592dacb3e2348465
+      internalID: 1951449539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_227
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e889cecfa8acd429f39eba7b2a908f
+      internalID: -1848651318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_228
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e38a4c8b22ba274fa3aa5882defccfd
+      internalID: -1977139260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_229
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd748c5c87bdfca488201353b567a24e
+      internalID: -1725127417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_230
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805ac1df8f29b704a9fa23a11f2ca3c1
+      internalID: -1618685773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_231
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693cc59ba7b7fdc48b1afe7ac3e27ae1
+      internalID: 1450489344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3f67939eea33e47bf123548d4219fd
+      internalID: 956256808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_233
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a6228fb0da69f4bac9471e757e7308
+      internalID: 363742886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_234
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672fee27ffab31e41be7b7ef0c9f5f31
+      internalID: -1921286196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_235
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef8daa8b059509469abb2b6aba0a4e8
+      internalID: 1045251377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_236
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177cb6d1e8f2c25428f07b91e68aa640
+      internalID: 1682157055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_237
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f64a5e88f9a6984f942a8cf32dc8b0a
+      internalID: 1222725231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_238
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f18e82ed432be44a7f672a02ab7abe
+      internalID: -143210326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_239
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eb70d152638f94e91669886621af89
+      internalID: 1102165625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_240
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a24b14018099c944b81a7eb08818382
+      internalID: 1999690573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_241
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5efdd4fb4892df45b70b6d48c6b9695
+      internalID: -126759938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_242
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a718244c331c305498ff37ee6d82b2b0
+      internalID: 1760592354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_243
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60435e203eb2e034c9efd5afca9c6b48
+      internalID: -695609347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_244
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6af932d1a29914bb5b1f5ae062c35c
+      internalID: -907471945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_245
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46b5f69e8f02a949bc13c9c4dc76222
+      internalID: 14400629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_246
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5bdbd9a2c4b6645a2c3a1292f4dd7d
+      internalID: -502862385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e3e114364599a48a3bac990e59a868
+      internalID: -1424108326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_248
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6ce69377400b94e966f992fa9df41d
+      internalID: 2128023861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_249
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a011d54e243ebce419116d4eb82d7cca
+      internalID: -1441856490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_250
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a1b0365ac8e9d4ba7dce79eb83c12d
+      internalID: 2008369199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_251
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a48a3df8601554aa6e28d2824a1258
+      internalID: -526195361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_252
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33954a2a091c784c8e99fbc607c6630
+      internalID: 1628165331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_253
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f1f16b090a8d749a3517a9193d5778
+      internalID: 1620049905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_254
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91695cafafb36943bc2c0e5e3b61a47
+      internalID: 1524638300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_255
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe48c071ad98ae468a7f94df3746311
+      internalID: 621696003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_256
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd5a3ab68ed40d4abbfdff5b6681a5e
+      internalID: -584403310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_257
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16494c28f08926042877706d27c7b349
+      internalID: 603272298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_258
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e860fe8a3ef5b47bf714c1d200efc1
+      internalID: 759956011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_259
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3618bd0746c759541aeec07f8b16d7a7
+      internalID: -1850569514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_260
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e9838c2c8229e4d84b71000aa0a5cd
+      internalID: -552181626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_261
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8b4042f7d357f4989b067a46c2e645
+      internalID: -791941706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_262
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8cdef4dfe7458469520b14125ec804
+      internalID: -744667819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_263
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260b537e22b98b04fa617761b35bdd6b
+      internalID: 486406096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_264
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3d13ece3437014e9e10df6a2078dd6
+      internalID: 176579093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_265
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b75017abe18e4488af7061bfbfed41
+      internalID: -655951673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_266
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a826417dc8dba5a438281f2dca7af997
+      internalID: -474909667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_267
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f84c98f17de7a5479b6b2521e74cb04
+      internalID: 933757654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_268
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e58512abc7e774594b6b0317bbab5b
+      internalID: -1596175035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_269
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db27ff6e7be94b2499f7109e66e88888
+      internalID: -698931739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_270
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda4aa8885c5e15408b8dff528de4ff1
+      internalID: -1473425827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_271
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb41f4ac1837de3469399feb2ebedc29
+      internalID: 1948381803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_272
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fca42fb67995e48b0fa9834dcaa860
+      internalID: -426543994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_273
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ebb4b9d3f5f6c40975f9d0cba75b1a
+      internalID: -1670344255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_274
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abb8ec0a94737d47b775a8210e4dc20
+      internalID: 698716726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_275
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b43f8d9943a1a409b29daf7dedc607
+      internalID: 281243719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_276
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae765beedd17d3041a79a3695dfa3996
+      internalID: -1837954497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_277
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cf051b5fa6de74e9a6fcb0053c48d0
+      internalID: 824247024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_278
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a02aad24fedcb248988c1c48f9f6787
+      internalID: 403127143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_279
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ef71dc70c87348b8f927a689da5c6
+      internalID: 1722745008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_280
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af2f7e9ab6edfe429e0279f8ef031cb
+      internalID: -1993855403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_281
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce2ab01f8e463f4695aa4270e5daf14
+      internalID: 182321741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_282
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a243dfc62e959394e9872f4dc70c7021
+      internalID: 1477163706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_283
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a453142a31e2a6042b6e139f04b448e2
+      internalID: 1601131811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_284
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ab54ad946d8234dbcb89ab35a2375b
+      internalID: -1269708480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_0: -84178989
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_1: -164991489
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_10: 590860118
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_100: -283545037
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_101: 1347010805
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_102: -411553038
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_103: -1617688537
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_104: 708477969
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_105: -2023808145
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_106: -1021654958
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_107: 330072794
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_108: 710859981
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_109: -262103622
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_11: -769909266
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_110: 1934998236
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_111: 1101900664
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_112: -1951180931
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_113: 1897574318
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_114: 291886282
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_115: -1892996675
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_116: -1497174933
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_117: 542022754
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_118: 592725490
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_119: 1503482340
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_12: 1139265226
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_120: 250247789
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_121: -130094932
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_122: -1364212557
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_123: -1979787999
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_124: 276989719
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_125: 1379170098
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_126: 257829172
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_127: 1008775213
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_128: -1646838036
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_129: -906449861
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_13: -530365689
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_130: 1854050044
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_131: 1687431431
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_132: 679256722
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_133: -491590013
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_134: -304642463
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_135: 379076703
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_136: 1121565748
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_137: 826405987
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_138: 1658974599
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_139: -2002432142
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_14: -508921574
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_140: -1965473479
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_141: 1967850739
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_142: -514674148
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_143: -808065003
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_144: 1807101518
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_145: 740799111
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_146: -1849877710
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_147: -881764207
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_148: 1174266144
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_149: -1218635913
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_15: 376034000
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_150: -362028283
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_151: 1735244789
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_152: 458106358
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_153: -852713749
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_154: -828519197
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_155: 1204038515
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_156: -18351542
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_157: 29388817
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_158: -298732993
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_159: 175834955
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_16: 638830298
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_160: 1166992170
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_161: 168237977
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_162: 1074680071
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_163: 1530218828
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_164: -5320519
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_165: 1140058131
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_166: 1559456594
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_167: -655026100
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_168: -1785494295
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_169: -1835962040
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_17: 1139922456
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_170: -907941383
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_171: 438129333
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_172: -815041552
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_173: -98137221
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_174: -1368447447
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_175: 1677387445
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_176: -1218259402
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_177: -1302145152
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_178: -1832256271
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_179: 1180845356
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_18: -32465352
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_180: -2019083554
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_181: 283923389
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_182: 1391454247
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_183: 725413315
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_184: -743085416
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_185: -934621950
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_186: -616339527
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_187: 133832936
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_188: -953723346
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_189: 1400700831
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_19: -2121659351
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_190: 140720901
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_191: 750740851
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_192: 1457867228
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_193: -634662430
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_194: -1679719800
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_195: -1537393128
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_196: 2011004970
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_197: -1573425989
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_198: -2066539949
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_199: -2142427059
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_2: 1305572306
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_20: -840433819
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_200: -1571866836
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_201: 756191525
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_202: -1273382488
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_203: -1526886539
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_204: -497375874
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_205: -564375397
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_206: 788653101
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_207: -376470560
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_208: 1498928696
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_209: -1241644639
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_21: 77147154
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_210: 468109250
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_211: -936430491
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_212: 255444414
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_213: -1269277957
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_214: 441050323
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_215: -786651832
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_216: -1424768593
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_217: 355763484
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_218: 1500406071
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_219: 273063253
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_22: -1505655332
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_220: -46819035
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_221: 937438843
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_222: 149049971
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_223: -717455729
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_224: 1178060415
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_225: -677971677
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_226: 1951449539
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_227: -1848651318
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_228: -1977139260
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_229: -1725127417
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_23: 1110201607
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_230: -1618685773
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_231: 1450489344
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_232: 956256808
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_233: 363742886
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_234: -1921286196
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_235: 1045251377
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_236: 1682157055
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_237: 1222725231
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_238: -143210326
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_239: 1102165625
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_24: 2141442388
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_240: 1999690573
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_241: -126759938
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_242: 1760592354
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_243: -695609347
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_244: -907471945
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_245: 14400629
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_246: -502862385
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_247: -1424108326
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_248: 2128023861
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_249: -1441856490
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_25: -1415139229
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_250: 2008369199
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_251: -526195361
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_252: 1628165331
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_253: 1620049905
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_254: 1524638300
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_255: 621696003
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_256: -584403310
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_257: 603272298
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_258: 759956011
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_259: -1850569514
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_26: 844960905
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_260: -552181626
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_261: -791941706
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_262: -744667819
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_263: 486406096
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_264: 176579093
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_265: -655951673
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_266: -474909667
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_267: 933757654
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_268: -1596175035
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_269: -698931739
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_27: -1127139284
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_270: -1473425827
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_271: 1948381803
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_272: -426543994
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_273: -1670344255
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_274: 698716726
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_275: 281243719
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_276: -1837954497
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_277: 824247024
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_278: 403127143
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_279: 1722745008
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_28: 1785504866
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_280: -1993855403
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_281: 182321741
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_282: 1477163706
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_283: 1601131811
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_284: -1269708480
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_29: 108991061
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_3: 786408769
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_30: 2123983321
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_31: -518355391
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_32: 42679525
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_33: 1582811970
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_34: 254831991
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_35: 1963693561
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_36: -1559114689
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_37: 48778175
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_38: -859755916
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_39: 146704922
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_4: 66932337
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_40: 1882455879
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_41: -1189211560
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_42: 475973595
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_43: 1060986144
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_44: 1306427894
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_45: 735762114
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_46: -536661480
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_47: -442254474
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_48: 103213463
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_49: 1289950609
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_5: 1073921937
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_50: -1250858653
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_51: 1980377646
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_52: 76193998
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_53: 808321306
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_54: 1378207794
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_55: 1237364868
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_56: 562310310
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_57: -986854919
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_58: -359938146
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_59: 763061805
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_6: 742373871
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_60: 1857271181
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_61: 729848180
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_62: -1709889069
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_63: 269764438
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_64: 1880578292
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_65: 274868391
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_66: -1882531214
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_67: -1449942080
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_68: -1922984971
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_69: -205674466
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_7: -401232251
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_70: 211182143
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_71: -75797921
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_72: -808806604
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_73: -1041871958
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_74: 913364002
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_75: 628029661
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_76: -1005583865
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_77: 640575574
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_78: 1402709504
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_79: 1528009183
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_8: -554402633
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_80: -237249192
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_81: 402661558
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_82: -1305565747
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_83: 50798844
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_84: -765580663
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_85: 182709787
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_86: -292868159
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_87: -1239495513
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_88: 1213505201
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_89: -1426994993
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_9: -652799945
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_90: 212501165
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_91: -679881829
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_92: -1999603009
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_93: -609242103
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_94: 798310523
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_95: -1979476036
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_96: 1775055706
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_97: -2061645459
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_98: 1717915297
+      dot_day18___dark_ruins_tileset_by_phyromatical_das9141 1_99: -963479264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
