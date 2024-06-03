@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Explosao : MonoBehaviour
 {
+
+    public Animator batata;
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.CompareTag("Obstacle")) {
             Destroy(collision.gameObject);

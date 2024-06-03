@@ -18,6 +18,10 @@ public class Bomb : MonoBehaviour
     public GameObject ColisaoA;
     public GameObject ColisaoB;
 
+    //box
+
+    private BoxCollider2D box;
+
 
 
     private void OnEnable()
@@ -25,6 +29,7 @@ public class Bomb : MonoBehaviour
         bombRestantes = quantidadeBomb;
     }
 
+    
 
     void Update()
     {
@@ -50,17 +55,32 @@ public class Bomb : MonoBehaviour
         GameObject bomb = Instantiate(bomba, alignedPosition, Quaternion.identity);
         bombRestantes--;
 
+        box = bomb.GetComponent<BoxCollider2D>();
+        box.isTrigger = true;
+
         yield return new WaitForSeconds(timeBomb);
        
         Destroy(bomb);
         bombRestantes++;
 
-        GameObject A = Instantiate(ColisaoA, alignedPosition, Quaternion.identity);
-        GameObject B = Instantiate(ColisaoB, alignedPosition, Quaternion.identity);
+        GameObject triggerA = Instantiate(ColisaoA, alignedPosition, Quaternion.identity);
+        GameObject triggerB = Instantiate(ColisaoB, alignedPosition, Quaternion.identity);
 
         yield return new WaitForSeconds(1);
 
-        Destroy(A);
-        Destroy(B);
+        Destroy(triggerA);
+        Destroy(triggerB);
+
+        box.isTrigger = true;
+    }
+
+   
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Untagged"))
+        {
+            box.isTrigger = false;
+        }
     }
 }
