@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,868 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 228
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad3f2bbe3769a54589600e3f4983ecd
+      internalID: 867221298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 228
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48895362468a206429a119762518a9d0
+      internalID: -1177905592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 228
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3265a5b42d1adf648b3036d76f9a55db
+      internalID: 2010991843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 228
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df26c433943e7945825e22fe698321f
+      internalID: 327741688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 228
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fddfcca9b4b8d041a6614a8403cdd61
+      internalID: 230051349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 228
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f933aa25784a67d4fa91511aec1d8b19
+      internalID: -166657055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 228
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28a21132c1087d47a157031c8af9ab1
+      internalID: 2002330647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 228
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3778bb45c9c1c4f840c3934f40404e
+      internalID: 1812869356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 196
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5e5037e4ad2f643aaff222823c073d
+      internalID: 791143524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 196
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e69130214767a04eb1a342be5dbe318
+      internalID: -1129083993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 196
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fafe4ab7ad5eb4fb5549ccc02295f4
+      internalID: 520375871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 203
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21cc1c6605c29046911cd3dd89e20d7
+      internalID: 2048319043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 199
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170a49f97d6a50e4f93ab0a933052a5e
+      internalID: 99548650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 196
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bc5201b4b99e64287ee1fcbc083c18
+      internalID: -1293374617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 199
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe9be26f23184d4cbfc06d83f5dac73
+      internalID: 1625397470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 196
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f3f764d4ccf884da248c1b82fb7585
+      internalID: 812004010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 164
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3911689366b13a84f9e98d4b3907609e
+      internalID: 281519049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 164
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b98596b0e742224f963c8b621ce2c29
+      internalID: 273851926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 164
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9cc01fd7de8314298bcc855017bd12
+      internalID: -401574379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 164
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3b8ef0b5962324190e8ac18dfc91a9
+      internalID: -1595710277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 132
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5286a8ef0258541b57c82508d2063c
+      internalID: -76399609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 132
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de9a66d2ccfccc489c909599f3f6086
+      internalID: 337551578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 132
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4824460ef3a16a4469c6b24eff9a8c16
+      internalID: -1799471046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_23
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 132
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f268fa8126511646af599df0d0a3bb9
+      internalID: -1503474246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 130
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbfa16eb52f64a4b88cb8ee5a8f2b3d
+      internalID: 255063473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 131
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185e52eb83a0ee243aeb46f8231872c4
+      internalID: 1899142232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 97
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cab1816edb1dec4fbd198b780cd51a3
+      internalID: 1134884768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 65
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b499895b3a47f4f4f90364029a371ff5
+      internalID: 27833390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095dde05ed58bcb478adf85dd2400291
+      internalID: 1466890576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 45
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c30e55984463244b6c017d2b38c607
+      internalID: -248647096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 33
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eab6d6e20dbc74c82b4a8bfc4dfc12
+      internalID: 476717310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 32
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ef6135818c37c419433698480e4f65
+      internalID: -788858972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1d51a59db224841903cc3db9588975
+      internalID: 181302013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 32
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea3c7d0e4fcc8d4fa035286131f5cf4
+      internalID: -910895231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_40
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9240e04320e4dd4ebec21410877c11b
+      internalID: 469941401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_41
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1c1bc62b862b74d955d1e1be059f97
+      internalID: 458687661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_42
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b67f621829f505469586b6735baded5
+      internalID: -1836417093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_43
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 35
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685490e53ac42743be205473c940fc8
+      internalID: 2071028618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_46
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ebb479ee4634d45b5732edfc21cd20
+      internalID: -436753339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_47
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9268b7713801f43816b13e85fb993f
+      internalID: 1730980769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Sprite Sheet - Left_48
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7c984af51b0054a9990b9ffe57cedf
+      internalID: -1277822858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +967,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Worm Sprite Sheet - Left_0: 867221298
+      Worm Sprite Sheet - Left_1: -1177905592
+      Worm Sprite Sheet - Left_10: 520375871
+      Worm Sprite Sheet - Left_11: 2048319043
+      Worm Sprite Sheet - Left_12: 99548650
+      Worm Sprite Sheet - Left_13: -1293374617
+      Worm Sprite Sheet - Left_14: 1625397470
+      Worm Sprite Sheet - Left_15: 812004010
+      Worm Sprite Sheet - Left_16: 281519049
+      Worm Sprite Sheet - Left_17: 273851926
+      Worm Sprite Sheet - Left_18: -401574379
+      Worm Sprite Sheet - Left_19: -1595710277
+      Worm Sprite Sheet - Left_2: 2010991843
+      Worm Sprite Sheet - Left_20: -76399609
+      Worm Sprite Sheet - Left_21: 337551578
+      Worm Sprite Sheet - Left_22: -1799471046
+      Worm Sprite Sheet - Left_23: -1503474246
+      Worm Sprite Sheet - Left_24: 255063473
+      Worm Sprite Sheet - Left_25: 1899142232
+      Worm Sprite Sheet - Left_26: 1134884768
+      Worm Sprite Sheet - Left_27: 719141054
+      Worm Sprite Sheet - Left_28: -623352103
+      Worm Sprite Sheet - Left_29: 27833390
+      Worm Sprite Sheet - Left_3: 327741688
+      Worm Sprite Sheet - Left_30: 1659706705
+      Worm Sprite Sheet - Left_31: -1743563446
+      Worm Sprite Sheet - Left_32: 1466890576
+      Worm Sprite Sheet - Left_33: -248647096
+      Worm Sprite Sheet - Left_34: -2084694133
+      Worm Sprite Sheet - Left_35: 1489934657
+      Worm Sprite Sheet - Left_36: 476717310
+      Worm Sprite Sheet - Left_37: -788858972
+      Worm Sprite Sheet - Left_38: 181302013
+      Worm Sprite Sheet - Left_39: -910895231
+      Worm Sprite Sheet - Left_4: 230051349
+      Worm Sprite Sheet - Left_40: 469941401
+      Worm Sprite Sheet - Left_41: 458687661
+      Worm Sprite Sheet - Left_42: -1836417093
+      Worm Sprite Sheet - Left_43: 2071028618
+      Worm Sprite Sheet - Left_44: 787217743
+      Worm Sprite Sheet - Left_45: -428385586
+      Worm Sprite Sheet - Left_46: -436753339
+      Worm Sprite Sheet - Left_47: 1730980769
+      Worm Sprite Sheet - Left_48: -1277822858
+      Worm Sprite Sheet - Left_5: -166657055
+      Worm Sprite Sheet - Left_6: 2002330647
+      Worm Sprite Sheet - Left_7: 1812869356
+      Worm Sprite Sheet - Left_8: 791143524
+      Worm Sprite Sheet - Left_9: -1129083993
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
