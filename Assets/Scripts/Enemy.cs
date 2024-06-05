@@ -11,7 +11,11 @@ public class Enemy : MonoBehaviour
     private Transform targetOfficial;
     public float velocidade = 1.3f;
     public SpriteRenderer sr;
+
+    //animação
     private Animator movimento;
+
+   
 
     void Start()
     {
