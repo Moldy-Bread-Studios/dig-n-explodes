@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
     public GameObject deathEffect; // Efeito de morte
     private bool isAlive = true; // Verifica se o jogador está vivo
     private Rigidbody2D playerRb;
-    [SerializeField] float speed = 2f; //que porra é essa ????????
+    public float speed = 2f; //que porra é essa ????????
     float speedAtual;
 
     //animação
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour {
 
         andando = eixoX != 0 || eixoY != 0;
 
-        if (andando )
+        if (andando)
         {
             move.SetBool("isWalking", true);
             move.SetFloat("eixoX", eixoX);

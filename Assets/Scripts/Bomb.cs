@@ -17,6 +17,7 @@ public class Bomb : MonoBehaviour
 
     public GameObject ColisaoA;
     public GameObject ColisaoB;
+    public GameObject Explosion;
 
     //box
 
@@ -62,15 +63,16 @@ public class Bomb : MonoBehaviour
        
         Destroy(bomb);
         bombRestantes++;
-
+        GameObject Ex = Instantiate(Explosion, alignedPosition, Quaternion.identity);
         GameObject triggerA = Instantiate(ColisaoA, alignedPosition, Quaternion.identity);
         GameObject triggerB = Instantiate(ColisaoB, alignedPosition, Quaternion.identity);
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.5f);
+
 
         Destroy(triggerA);
         Destroy(triggerB);
-
+        Destroy(Ex);
         box.isTrigger = true;
     }
 

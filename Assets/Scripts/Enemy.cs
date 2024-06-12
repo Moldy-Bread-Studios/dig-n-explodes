@@ -64,6 +64,17 @@ public class Enemy : MonoBehaviour
                 targetOfficial = targetA;
             }
         }
+        if (collision.gameObject.CompareTag("Untagged"))
+        {
+            if (targetOfficial == targetA)
+            {
+                targetOfficial = targetB;
+            }
+            else
+            {
+                targetOfficial = targetA;
+            }
+        }
     }
-    
+
 }
