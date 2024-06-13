@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEditor.SearchService;
 
 public class Player : MonoBehaviour {
 
@@ -69,6 +71,28 @@ public class Player : MonoBehaviour {
 
         }
 
+    }
+
+    void OnTriggerEnter2D(Collider2D other){
+    if(other.CompareTag("porta1")){
+        SceneManager.LoadScene(1);
+        }
+
+    if(other.CompareTag("porta2")){
+        SceneManager.LoadScene(2);
+        }
+
+    if(other.CompareTag("porta3")){
+        SceneManager.LoadScene(3);
+        }
+        
+    if(other.CompareTag("porta4")){
+        SceneManager.LoadScene(4);
+        }
+        
+    if(other.CompareTag("final")){
+        SceneManager.LoadScene(5);
+        }
     }
 
 }

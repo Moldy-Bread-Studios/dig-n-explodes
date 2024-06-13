@@ -20,7 +20,7 @@ public class EnemyTeste : MonoBehaviour
 
     private SpriteRenderer sprite;
 
-    //animação
+    //animaï¿½ï¿½o
 
     public Animator anime;
 
@@ -37,7 +37,7 @@ public class EnemyTeste : MonoBehaviour
     private SpriteRenderer terraA;
     private SpriteRenderer terraB;
 
-    //posição da terra
+    //posiï¿½ï¿½o da terra
     private Transform posicaoA;
     private Transform posicaoB;
     //}
@@ -77,7 +77,6 @@ public class EnemyTeste : MonoBehaviour
             box.isTrigger = false;
             sprite.enabled = true;
             terraA.enabled = true;
-            anime.SetBool("dentro", false);
             StartCoroutine(Troca());
         }
         if (waypoitnActual == waypointB && Vector2.Distance(transform.position, waypointB.position) < 0.1f)
@@ -85,7 +84,6 @@ public class EnemyTeste : MonoBehaviour
             box.isTrigger = false;
             sprite.enabled = true;
             terraB.enabled = true;
-            anime.SetBool("dentro", false);
             StartCoroutine(TrocaDnv());
 
         }
@@ -144,7 +142,6 @@ public class EnemyTeste : MonoBehaviour
                 sprite.enabled = true;
                 terraA.enabled = true;
                 velocidadeAtual = 0f;
-                anime.SetBool("dentro", false);
                 StartCoroutine(Troca());
 
             }
@@ -154,7 +151,6 @@ public class EnemyTeste : MonoBehaviour
                 sprite.enabled = true;
                 terraB.enabled = true;
                 velocidadeAtual = 0f;
-                anime.SetBool("dentro", false);
                 StartCoroutine(TrocaDnv());
 
             }
