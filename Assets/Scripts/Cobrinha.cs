@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using static UnityEngine.GraphicsBuffer;
 
-public class EnemyTeste : MonoBehaviour
+public class Cobrinha : MonoBehaviour
 {
     //movimento
     public Transform waypointA;
@@ -74,14 +74,14 @@ public class EnemyTeste : MonoBehaviour
 
         if (waypoitnActual == waypointA && Vector2.Distance(transform.position, waypointA.position) < 0.1f)
         {
-            box.isTrigger = false;
+            
             sprite.enabled = true;
             terraA.enabled = true;
             StartCoroutine(Troca());
         }
         if (waypoitnActual == waypointB && Vector2.Distance(transform.position, waypointB.position) < 0.1f)
         {
-            box.isTrigger = false;
+            
             sprite.enabled = true;
             terraB.enabled = true;
             StartCoroutine(TrocaDnv());
@@ -100,16 +100,17 @@ public class EnemyTeste : MonoBehaviour
 
     private IEnumerator Troca()
     {
-
+        velocidadeAtual = 0f;
         posicaoA.position = new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z);
 
         yield return new WaitForSeconds(3);
 
-        box.isTrigger = true;
+        
         terraA.enabled = false;
         sprite.enabled = false;
         velocidadeAtual = velocidadeVariavel;
         waypoitnActual = waypointB;
+        box.isTrigger = true;
 
     }
 
@@ -117,16 +118,17 @@ public class EnemyTeste : MonoBehaviour
 
     private IEnumerator TrocaDnv()
     {
-
+        velocidadeAtual = 0f;
         posicaoB.position = new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z);
 
         yield return new WaitForSeconds(3);
 
-        box.isTrigger = true;
+        
         terraB.enabled = false;
         sprite.enabled = false;
         velocidadeAtual = velocidadeVariavel;
         waypoitnActual = waypointA;
+        box.isTrigger = true;
 
     }
 
@@ -139,18 +141,20 @@ public class EnemyTeste : MonoBehaviour
             if (waypoitnActual == waypointA)
             {
 
+                velocidadeAtual = 0f;
+                box.isTrigger = false;
                 sprite.enabled = true;
                 terraA.enabled = true;
-                velocidadeAtual = 0f;
                 StartCoroutine(Troca());
 
             }
             else
             {
 
+                velocidadeAtual = 0f;
+                box.isTrigger = false;
                 sprite.enabled = true;
                 terraB.enabled = true;
-                velocidadeAtual = 0f;
                 StartCoroutine(TrocaDnv());
 
             }

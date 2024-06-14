@@ -11,9 +11,10 @@ public class Enemy : MonoBehaviour
     private Transform targetOfficial;
     public float velocidade = 1.3f;
     public SpriteRenderer sr;
+    private CircleCollider2D box;
 
     //animação
-    private Animator movimento;
+    public Animator movimento;
 
    
 
@@ -21,6 +22,7 @@ public class Enemy : MonoBehaviour
     {
         targetOfficial = targetA;
         movimento = GetComponent<Animator>();
+        box = GetComponent<CircleCollider2D>();
     }
 
     void Update()
@@ -28,10 +30,12 @@ public class Enemy : MonoBehaviour
         if (targetOfficial == targetA && Vector2.Distance(transform.position, targetA.position) < 0.1f) 
         {
             targetOfficial = targetB;
+            
         }
         if (targetOfficial == targetB && Vector2.Distance(transform.position, targetB.position) < 0.1f)
         {
             targetOfficial = targetA;
+            
         }
 
         transform.position = Vector2.MoveTowards(transform.position, targetOfficial.position, velocidade * Time.deltaTime);
@@ -40,14 +44,16 @@ public class Enemy : MonoBehaviour
         if (transform.position.x > targetOfficial.position.x)
         {
             sr.flipX = false;
+            movimento.SetBool("eixo", true);
         }
         else
         {
             sr.flipX = true;
+            movimento.SetBool("eixo", false);
         }
 
         // Definir a animação de movimento
-        movimento.SetBool("isWalking", true);
+       
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -57,11 +63,15 @@ public class Enemy : MonoBehaviour
         {
             if (targetOfficial == targetA)
             {
+               
                 targetOfficial = targetB;
+                movimento.SetBool("eixo", false);
+                
             }
             else
             {
                 targetOfficial = targetA;
+                movimento.SetBool("eixo", true);
             }
         }
         if (collision.gameObject.CompareTag("Untagged"))
@@ -75,6 +85,25 @@ public class Enemy : MonoBehaviour
                 targetOfficial = targetA;
             }
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("kabum"))
+        {
+            StartCoroutine(Morte());
+        }
+    }
+
+    private IEnumerator Morte()
+    {
+        velocidade = 0;
+        movimento.SetBool("morte", true);
+
+        yield return new WaitForSeconds(1);
+
+        sr.enabled = false;
+        box.enabled = false;
     }
 
 }

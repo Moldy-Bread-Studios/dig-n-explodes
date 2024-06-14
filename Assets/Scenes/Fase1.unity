@@ -136,7 +136,6 @@ GameObject:
   - component: {fileID: 17926422}
   - component: {fileID: 17926421}
   - component: {fileID: 17926420}
-  - component: {fileID: 17926419}
   - component: {fileID: 17926418}
   m_Layer: 0
   m_Name: Enemy
@@ -174,25 +173,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypointA: {fileID: 363660020}
   waypointB: {fileID: 1826546023}
-  velocidadeAtual: 2
+  velocidadeAtual: 1
   anime: {fileID: 17926420}
   buracoA: {fileID: 1394978111}
   buracoB: {fileID: 216205671}
---- !u!111 &17926419
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17926416}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 40b1185854a1c9146a0e6cf3a72f91e5, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &17926420
 Animator:
   serializedVersion: 5
@@ -2063,7 +2047,7 @@ Transform:
   m_GameObject: {fileID: 217742456}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8523747, y: 4.285855, z: -0.026229361}
+  m_LocalPosition: {x: -0.8523747, y: 4.285855, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2732,6 +2716,7 @@ MonoBehaviour:
   targetB: {fileID: 897926631}
   velocidade: 2
   sr: {fileID: 303347438}
+  movimento: {fileID: 0}
 --- !u!58 &303347435
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3129,7 +3114,6 @@ GameObject:
   - component: {fileID: 336947765}
   - component: {fileID: 336947764}
   - component: {fileID: 336947763}
-  - component: {fileID: 336947762}
   - component: {fileID: 336947761}
   m_Layer: 0
   m_Name: Enemy
@@ -3167,25 +3151,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypointA: {fileID: 217742457}
   waypointB: {fileID: 1541207382}
-  velocidadeAtual: 2
+  velocidadeAtual: 1
   anime: {fileID: 336947763}
   buracoA: {fileID: 1652087811}
   buracoB: {fileID: 771137576}
---- !u!111 &336947762
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336947759}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 40b1185854a1c9146a0e6cf3a72f91e5, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &336947763
 Animator:
   serializedVersion: 5
@@ -7803,7 +7772,7 @@ Transform:
   m_GameObject: {fileID: 808006762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.81, y: 2.38, z: 0.026229361}
+  m_LocalPosition: {x: 9.81, y: 2.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8155,7 +8124,7 @@ Transform:
   m_GameObject: {fileID: 833412005}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.12, y: 0.48, z: 0.026229361}
+  m_LocalPosition: {x: -6.12, y: 0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10460,7 +10429,6 @@ GameObject:
   - component: {fileID: 1148819720}
   - component: {fileID: 1148819719}
   - component: {fileID: 1148819718}
-  - component: {fileID: 1148819722}
   - component: {fileID: 1148819723}
   m_Layer: 0
   m_Name: Enemy
@@ -10629,21 +10597,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &1148819722
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148819715}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 40b1185854a1c9146a0e6cf3a72f91e5, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &1148819723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10658,7 +10611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypointA: {fileID: 1979300840}
   waypointB: {fileID: 372318635}
-  velocidadeAtual: 2
+  velocidadeAtual: 1
   anime: {fileID: 1148819718}
   buracoA: {fileID: 913192498}
   buracoB: {fileID: 1214201302}
@@ -11919,6 +11872,7 @@ MonoBehaviour:
   targetB: {fileID: 1720581749}
   velocidade: 2
   sr: {fileID: 1249932880}
+  movimento: {fileID: 0}
 --- !u!1 &1258754018
 GameObject:
   m_ObjectHideFlags: 0
@@ -13434,7 +13388,7 @@ Transform:
   m_GameObject: {fileID: 1354130344}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17762531, y: 0.68414485, z: 0.026229361}
+  m_LocalPosition: {x: -0.17762531, y: 0.68414485, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14402,6 +14356,7 @@ MonoBehaviour:
   targetB: {fileID: 1358682061}
   velocidade: 2
   sr: {fileID: 1483318294}
+  movimento: {fileID: 0}
 --- !u!58 &1483318291
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15067,7 +15022,7 @@ Transform:
   m_GameObject: {fileID: 1541207381}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8423747, y: -4.804145, z: -0.026229361}
+  m_LocalPosition: {x: -0.8423747, y: -4.804145, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23254,6 +23209,7 @@ MonoBehaviour:
   targetB: {fileID: 1776198404}
   velocidade: 2
   sr: {fileID: 2081992871}
+  movimento: {fileID: 0}
 --- !u!58 &2081992868
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23439,7 +23395,6 @@ GameObject:
   - component: {fileID: 2130833393}
   - component: {fileID: 2130833392}
   - component: {fileID: 2130833391}
-  - component: {fileID: 2130833390}
   - component: {fileID: 2130833389}
   m_Layer: 0
   m_Name: Enemy
@@ -23477,25 +23432,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypointA: {fileID: 2000422725}
   waypointB: {fileID: 352249028}
-  velocidadeAtual: 2
+  velocidadeAtual: 1
   anime: {fileID: 2130833391}
   buracoA: {fileID: 430618607}
   buracoB: {fileID: 1693289243}
---- !u!111 &2130833390
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130833387}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 40b1185854a1c9146a0e6cf3a72f91e5, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &2130833391
 Animator:
   serializedVersion: 5
@@ -23666,7 +23606,7 @@ Transform:
   m_GameObject: {fileID: 2141421656}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.87, y: -1.41, z: 0.026229361}
+  m_LocalPosition: {x: 7.87, y: -1.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23689,10 +23629,10 @@ SceneRoots:
   - {fileID: 1354130345}
   - {fileID: 2141421657}
   - {fileID: 808006763}
-  - {fileID: 833412006}
   - {fileID: 1982839383}
   - {fileID: 1737842059}
   - {fileID: 1338900903}
   - {fileID: 1267913391}
   - {fileID: 1006613315}
   - {fileID: 1794429988}
+  - {fileID: 833412006}

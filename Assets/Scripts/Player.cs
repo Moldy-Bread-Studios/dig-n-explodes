@@ -44,6 +44,11 @@ public class Player : MonoBehaviour {
             move.SetBool("isWalking", false);
         }
 
+        if(Input.GetKeyDown(KeyCode.Space)) 
+        {
+            move.SetTrigger("put");
+        }
+
     }
     void DestroyPlayer()
     {

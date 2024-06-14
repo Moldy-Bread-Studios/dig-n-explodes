@@ -10,9 +10,6 @@ public class Explosao : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle")) {
             Destroy(collision.gameObject);
         }
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(collision.gameObject);
-        }
+        
     }
 }

@@ -11,6 +11,7 @@ TagManager:
   - porta3
   - porta4
   - final
+  - kabum
   layers:
   - Default
   - TransparentFX
