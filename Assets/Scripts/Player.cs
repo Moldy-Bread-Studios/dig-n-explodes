@@ -78,12 +78,12 @@ public class Player : MonoBehaviour {
 
     }
 
-    void OnTriggerEnter2D(Collider2D other){
+  /*  void OnTriggerEnter2D(Collider2D other){
     if(other.CompareTag("porta1")){
         SceneManager.LoadScene(1);
         }
 
-    if(other.CompareTag("porta2")){
+   if(other.CompareTag("porta2")){
         SceneManager.LoadScene(2);
         }
 
@@ -99,6 +99,7 @@ public class Player : MonoBehaviour {
         SceneManager.LoadScene(5);
         }
     }
+    */
 
 }
 

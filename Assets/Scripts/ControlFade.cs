@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fade : MonoBehaviour
+public class ControlFade : MonoBehaviour
 {
-    // Start is called before the first frame update
+    FadeInOut fade;
+
     void Start()
     {
-        
+        fade = FindObjectOfType<FadeInOut>();
+
+        fade.FadeOut();
     }
 
     // Update is called once per frame
