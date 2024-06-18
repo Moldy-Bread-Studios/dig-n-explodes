@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase3_Chefe.unity
     guid: 7276c6d015b8c234a9df0fe179d3bad8
   - enabled: 1
-    path: Assets/Scenes/Fase3_Final_Cena1.unity
+    path: Assets/Scenes/Fase4.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Fase3_Final_Cena2.unity
+    path: Assets/Scenes/Fase5.unity
     guid: f240709fc11b26a48ab2647bdc60fd14
   - enabled: 1
     path: Assets/Scenes/Credits.unity
