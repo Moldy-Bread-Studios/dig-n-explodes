@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEditor.SearchService;
+using Unity.VisualScripting;
 
 public class Player : MonoBehaviour {
 
@@ -12,6 +13,9 @@ public class Player : MonoBehaviour {
     private Rigidbody2D playerRb;
     public float speed = 2f; //que porra é essa ????????
     float speedAtual;
+    public int vida;
+    public Text textHeart;
+    private SpriteRenderer sprite;
 
     //animação
     public Animator move;
@@ -21,6 +25,8 @@ public class Player : MonoBehaviour {
 
         playerRb = GetComponent<Rigidbody2D>();
         speedAtual = speed;  // Mova a inicialização de speedAtual para o método Start correto
+        vida = 3;
+        sprite = GetComponent<SpriteRenderer>();
 
     }
     
@@ -49,18 +55,37 @@ public class Player : MonoBehaviour {
             move.SetTrigger("put");
         }
 
+        textHeart.text = vida.ToString();
+        Debug.Log(textHeart.text = vida.ToString());
+
     }
-    void DestroyPlayer()
-    {
-        // Verifica se o jogador já não foi destruído
-        if (isAlive)
-        {
-            isAlive = false; // Define o jogador como morto
-            // Adicione aqui qualquer lógica adicional, como efeitos de morte, contagem de vidas, etc.
-            Destroy(gameObject); // Destroi o objeto do jogador
-            Instantiate(deathEffect, transform.position, Quaternion.identity); // Instancia o efeito de morte
-        }
-    }
+    private IEnumerator DestroyPlayer()
+ {
+     gameObject.tag = "Respawn";
+     vida--;
+     Debug.Log(vida);
+
+     for(int i = 0; i < 10; i++)
+     {
+         sprite.enabled = false;
+         yield return new WaitForSeconds(0.1f);
+         sprite.enabled = true;
+         yield return new WaitForSeconds(0.1f);
+
+         if(vida == 0)
+         {
+         speedAtual = 0f;
+         move.SetTrigger("Morte");
+         yield return new WaitForSeconds(1);
+         Destroy(gameObject);
+         }
+     }
+
+     gameObject.tag = "Player";
+
+
+
+ }
 
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -72,11 +97,21 @@ public class Player : MonoBehaviour {
 
             Debug.Log("O jogador foi atingido pelo inimigo!");
             // Executa a função para destruir o jogador
-            DestroyPlayer();
+            StartCoroutine(DestroyPlayer());
 
         }
 
+
     }
+
+    private void OnTriggerEnter2D(Collider2D other){
+        if(other.CompareTag("kabum")){
+            StartCoroutine(DestroyPlayer());
+        }
+        
+    }
+
+
 
   /*  void OnTriggerEnter2D(Collider2D other){
     if(other.CompareTag("porta1")){
@@ -102,4 +137,3 @@ public class Player : MonoBehaviour {
     */
 
 }
-
