@@ -5776,6 +5776,7 @@ MonoBehaviour:
   deathEffect: {fileID: 0}
   speed: 2
   vida: 0
+  contEnemy: 0
   textHeart: {fileID: 1662682038}
   move: {fileID: 740293521}
 --- !u!114 &740293516
@@ -16768,6 +16769,7 @@ MonoBehaviour:
   - {fileID: 1148819720}
   - {fileID: 2130833393}
   - {fileID: 17926422}
+  ContadorEnemy: {fileID: 2127365298}
   door: {fileID: 1831385799}
 --- !u!95 &1650668759
 Animator:
@@ -24305,9 +24307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '7
-
-'
+  m_Text: 0
 --- !u!222 &2127365299
 CanvasRenderer:
   m_ObjectHideFlags: 0

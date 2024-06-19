@@ -2,11 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEditor.SearchService;
+using Unity.VisualScripting;
+using UnityEngine.UI;
 
 public class Chave : MonoBehaviour
 {
     //enemys
     public Collider2D[] enemy;
+    private int contador;
+    public Text ContadorEnemy;
 
 
     //chave 
@@ -15,6 +20,8 @@ public class Chave : MonoBehaviour
     private SpriteRenderer spriteKey;
     private Collider2D doorBox;
     private Animator doorAnime;
+
+    
 
 
     // Start is called before the first frame update
@@ -42,12 +49,30 @@ public class Chave : MonoBehaviour
             spriteKey.enabled = true;
         }
 
+        contador = enemy.Length;
+        Check();
+        ContadorEnemy.text = contador.ToString();
+
     }
 
 
     bool TodosEstaoDesativados(Collider2D[] enemy)
     {
         return enemy.All(enemy => !enemy.enabled);
+    }
+
+    public void Check()
+    {
+
+
+        foreach (Collider2D enemy in enemy)
+        {
+            if (!enemy.enabled)
+            {
+                contador--;
+            }
+
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

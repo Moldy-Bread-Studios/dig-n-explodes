@@ -13,9 +13,15 @@ public class Player : MonoBehaviour {
     public float speed = 2f;
     float speedAtual;
     public int vida;
+    public int contEnemy;
     public Text textHeart;
     private SpriteRenderer sprite;
     private bool noHit = false;
+    private Collider2D box;
+    
+
+
+  
 
     //animação
     public Animator move;
@@ -28,6 +34,11 @@ public class Player : MonoBehaviour {
         vida = 3;
         sprite = GetComponent<SpriteRenderer>();
         noHit = false;
+        box = GetComponent<Collider2D>();
+
+       
+
+       
 
     }
     
@@ -57,7 +68,12 @@ public class Player : MonoBehaviour {
         }
 
         textHeart.text = vida.ToString();
-        Debug.Log(textHeart.text = vida.ToString());
+        
+      
+        
+        
+
+
 
     }
     private IEnumerator DestroyPlayer()
@@ -78,18 +94,15 @@ public class Player : MonoBehaviour {
          {
          speedAtual = 0f;
          move.SetTrigger("Morte");
+         box.isTrigger = true;
          yield return new WaitForSeconds(1);
          Destroy(gameObject);
          }
-     }
-
-     
+     }   
         noHit = false;
-
-
-
-
  }
+
+    
 
 
     void OnCollisionEnter2D(Collision2D collision)

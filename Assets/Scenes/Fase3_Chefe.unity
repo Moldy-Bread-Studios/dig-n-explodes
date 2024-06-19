@@ -4692,6 +4692,7 @@ MonoBehaviour:
   deathEffect: {fileID: 0}
   speed: 2
   vida: 0
+  contEnemy: 0
   textHeart: {fileID: 0}
   move: {fileID: 1239309530}
 --- !u!212 &1239309527
