@@ -10,9 +10,11 @@ public class Chave : MonoBehaviour
 
 
     //chave 
-    public BoxCollider2D door;
+    public GameObject door;
     private Collider2D boxKey;
     private SpriteRenderer spriteKey;
+    private Collider2D doorBox;
+    private Animator doorAnime;
 
 
     // Start is called before the first frame update
@@ -20,9 +22,13 @@ public class Chave : MonoBehaviour
     {
         boxKey = GetComponent<BoxCollider2D>();
         spriteKey = GetComponent<SpriteRenderer>();
-        door.enabled = false;
+        doorBox = door.GetComponent<Collider2D>();
+        doorAnime = door.GetComponent <Animator>();
+        doorAnime.enabled = false;  
+        doorBox.enabled = false;
         boxKey.enabled = false;
         spriteKey.enabled = false;
+
 
 
     }
@@ -48,7 +54,8 @@ public class Chave : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            door.enabled = true;
+            doorBox.enabled = true;
+            doorAnime.enabled = true;
             Destroy(gameObject);
         }
     }

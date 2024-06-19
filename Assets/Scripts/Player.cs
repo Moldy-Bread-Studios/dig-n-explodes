@@ -9,13 +9,13 @@ using Unity.VisualScripting;
 public class Player : MonoBehaviour {
 
     public GameObject deathEffect; // Efeito de morte
-    private bool isAlive = true; // Verifica se o jogador está vivo
     private Rigidbody2D playerRb;
-    public float speed = 2f; //que porra é essa ????????
+    public float speed = 2f;
     float speedAtual;
     public int vida;
     public Text textHeart;
     private SpriteRenderer sprite;
+    private bool noHit = false;
 
     //animação
     public Animator move;
@@ -27,6 +27,7 @@ public class Player : MonoBehaviour {
         speedAtual = speed;  // Mova a inicialização de speedAtual para o método Start correto
         vida = 3;
         sprite = GetComponent<SpriteRenderer>();
+        noHit = false;
 
     }
     
@@ -61,7 +62,8 @@ public class Player : MonoBehaviour {
     }
     private IEnumerator DestroyPlayer()
  {
-     gameObject.tag = "Respawn";
+     
+        noHit = true;
      vida--;
      Debug.Log(vida);
 
@@ -72,7 +74,7 @@ public class Player : MonoBehaviour {
          sprite.enabled = true;
          yield return new WaitForSeconds(0.1f);
 
-         if(vida == 0)
+         if(vida <= 0)
          {
          speedAtual = 0f;
          move.SetTrigger("Morte");
@@ -81,7 +83,9 @@ public class Player : MonoBehaviour {
          }
      }
 
-     gameObject.tag = "Player";
+     
+        noHit = false;
+
 
 
 
@@ -94,10 +98,13 @@ public class Player : MonoBehaviour {
         // Verifica se a colisão ocorreu com um objeto inimigo
         if (collision.gameObject.CompareTag("Enemy"))
         {
-
-            Debug.Log("O jogador foi atingido pelo inimigo!");
-            // Executa a função para destruir o jogador
-            StartCoroutine(DestroyPlayer());
+            if(!noHit)
+            {
+        Debug.Log("O jogador foi atingido pelo inimigo!");
+                    // Executa a função para destruir o jogador
+                    StartCoroutine(DestroyPlayer());
+            }
+            
 
         }
 
@@ -106,7 +113,11 @@ public class Player : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other){
         if(other.CompareTag("kabum")){
-            StartCoroutine(DestroyPlayer());
+            if(!noHit)
+            {
+                StartCoroutine(DestroyPlayer());
+            }
+            
         }
         
     }
