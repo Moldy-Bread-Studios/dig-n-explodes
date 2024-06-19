@@ -67,7 +67,7 @@ public class Bomb : MonoBehaviour
         GameObject triggerA = Instantiate(ColisaoA, alignedPosition, Quaternion.identity);
         GameObject triggerB = Instantiate(ColisaoB, alignedPosition, Quaternion.identity);
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.5f);
 
 
         Destroy(triggerA);
