@@ -12,6 +12,8 @@ TagManager:
   - porta4
   - final
   - kabum
+  - bola
+  - bomba
   layers:
   - Default
   - TransparentFX

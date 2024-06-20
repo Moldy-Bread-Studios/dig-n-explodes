@@ -108,13 +108,13 @@ public class Player : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D collision)
     {
 
-        // Verifica se a colisão ocorreu com um objeto inimigo
+       
         if (collision.gameObject.CompareTag("Enemy"))
         {
             if(!noHit)
             {
         Debug.Log("O jogador foi atingido pelo inimigo!");
-                    // Executa a função para destruir o jogador
+
                     StartCoroutine(DestroyPlayer());
             }
             
@@ -132,32 +132,18 @@ public class Player : MonoBehaviour {
             }
             
         }
+        if (other.CompareTag("bola"))
+        {
+            if (!noHit)
+            {
+                StartCoroutine(DestroyPlayer());
+            }
+        }
         
     }
 
 
 
-  /*  void OnTriggerEnter2D(Collider2D other){
-    if(other.CompareTag("porta1")){
-        SceneManager.LoadScene(1);
-        }
-
-   if(other.CompareTag("porta2")){
-        SceneManager.LoadScene(2);
-        }
-
-    if(other.CompareTag("porta3")){
-        SceneManager.LoadScene(3);
-        }
-        
-    if(other.CompareTag("porta4")){
-        SceneManager.LoadScene(4);
-        }
-        
-    if(other.CompareTag("final")){
-        SceneManager.LoadScene(5);
-        }
-    }
-    */
+  
 
 }
