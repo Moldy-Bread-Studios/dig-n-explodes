@@ -14,7 +14,7 @@ public class Chefe : MonoBehaviour
     public Transform WayB;
     private Transform WayAtual;
     private SpriteRenderer sprite;
-    public Collider2D box;
+    
 
     //animação
     public Animator anime;
@@ -32,13 +32,18 @@ public class Chefe : MonoBehaviour
 
     //vida
     public int vidas = 4;
-    private bool noHit = false;
+    public bool noHit = false;
+    public bool death = false;
+    private Collider2D box;
     
   
 
     void Start()
     {
         noHit = false;
+        death = false;
+        box = GetComponent<Collider2D>();
+        box.enabled = false;
         sprite = gameObject.GetComponent<SpriteRenderer>();
         WayAtual = WayA;
         velocidade = velocidadeAtual;
@@ -67,13 +72,11 @@ public class Chefe : MonoBehaviour
     private IEnumerator Buraco()
     {
         sprite.enabled = false;
-        box.enabled = false;
         WayAtual = null;
         yield return new WaitForSeconds(1);
 
         Randomizador = Random.Range(1, 5);
         sprite.enabled = true;
-        box.enabled = true;
         transform.localScale = new Vector2 (-1f, 1f);
                 
         switch (Randomizador)
@@ -118,7 +121,7 @@ public class Chefe : MonoBehaviour
         
     }
 
-    private IEnumerator Attack()
+    public IEnumerator Attack()
     {
             
 
@@ -132,7 +135,7 @@ public class Chefe : MonoBehaviour
 
         anime.SetBool("IsWalking", true);
         velocidade = velocidadeAtual;
-        
+        yield return new WaitForSeconds(2);
     }
 
     private IEnumerator FireBall()
@@ -165,9 +168,10 @@ public class Chefe : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
 
         rb.velocity = Vector2.zero;
+        point.position = new Vector2(20f, 20f);
     }
 
-    private IEnumerator Hit()
+    public IEnumerator Hit()
     {
         UnityEngine.Color colorRed = UnityEngine.Color.red;
         UnityEngine.Color colorNone = UnityEngine.Color.white;
@@ -187,21 +191,12 @@ public class Chefe : MonoBehaviour
                 velocidade = 0f;
                 anime.SetTrigger("Morte");
                 yield return new WaitForSeconds(1);
-                Destroy(gameObject);
+                death = true;
+                box.enabled = false;
+                i = 9;
             }
         }
         noHit = false;
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            StartCoroutine(Attack());
-        }
-        if (other.gameObject.CompareTag("kabum"))
-        {
-            StartCoroutine(Hit());
-        }
-    }
+ 
 }

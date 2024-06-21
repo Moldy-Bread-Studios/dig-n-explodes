@@ -282,7 +282,7 @@ Transform:
   m_GameObject: {fileID: 570817350}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.96, y: 10.2, z: 0.017463816}
+  m_LocalPosition: {x: -15.09, y: 7.77, z: 0.017463816}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -331,7 +331,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 2.5}
+  m_Size: {x: 0.5, y: 3}
   m_EdgeRadius: 0
 --- !u!1 &685695486
 GameObject:
@@ -346,9 +346,10 @@ GameObject:
   - component: {fileID: 685695488}
   - component: {fileID: 685695487}
   - component: {fileID: 685695492}
+  - component: {fileID: 685695493}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -367,12 +368,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayA: {fileID: 70858925}
   WayB: {fileID: 0}
-  box: {fileID: 1415119217}
   anime: {fileID: 685695492}
   velocidade: 0
-  velocidadeAtual: 6
+  velocidadeAtual: 5
   fireBall: {fileID: 2001622851}
-  vidas: 4
+  vidas: 10
+  noHit: 0
+  death: 0
 --- !u!50 &685695488
 Rigidbody2D:
   serializedVersion: 4
@@ -490,6 +492,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &685695493
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685695486}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.625, y: 5.625}
+    newSize: {x: 5.625, y: 5.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &703676092
 GameObject:
   m_ObjectHideFlags: 0
@@ -4734,6 +4781,12 @@ MonoBehaviour:
   ColisaoA: {fileID: 1701495819}
   ColisaoB: {fileID: 570817350}
   Explosion: {fileID: 1606576966}
+  Ex: {fileID: 0}
+  triggerA: {fileID: 0}
+  triggerB: {fileID: 0}
+  bomb: {fileID: 0}
+  alignedPosition: {x: 0, y: 0, z: 0}
+  porta: 0
 --- !u!50 &1239309525
 Rigidbody2D:
   serializedVersion: 4
@@ -4912,6 +4965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415119216}
   - component: {fileID: 1415119217}
+  - component: {fileID: 1415119218}
   m_Layer: 1
   m_Name: Trigger
   m_TagString: EditorOnly
@@ -4928,7 +4982,7 @@ Transform:
   m_GameObject: {fileID: 1415119215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.87, y: 0.09, z: -0.000038726255}
+  m_LocalPosition: {x: -8.7, y: 0.09, z: -0.000038726255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4979,6 +5033,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1415119218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415119215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9226dca56c8dd446b10b2fdb4942a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1488641777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,7 +6588,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 0.5}
+  m_Size: {x: 3, y: 0.5}
   m_EdgeRadius: 0
 --- !u!4 &1701495821
 Transform:
@@ -6646,9 +6712,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1832826146}
   - component: {fileID: 1832826147}
+  - component: {fileID: 1832826148}
   m_Layer: 0
   m_Name: HitBox
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6697,10 +6764,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.022377491, y: 0.32819414}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6711,8 +6778,20 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 1.5}
+  m_Size: {x: 3.5230284, y: 2.9825802}
   m_EdgeRadius: 0
+--- !u!114 &1832826148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832826145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ff576c28631854c945d86325d9af65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2001622851
 GameObject:
   m_ObjectHideFlags: 0
@@ -6878,7 +6957,7 @@ Transform:
   m_GameObject: {fileID: 2001622851}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.923614, y: 9.13, z: 0}
+  m_LocalPosition: {x: -8.19, y: 10.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
