@@ -2812,7 +2812,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.3808694, y: -1.061818}
@@ -2850,7 +2850,7 @@ Transform:
   m_GameObject: {fileID: 1291389433}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.33, y: -0.51, z: 0.041136995}
+  m_LocalPosition: {x: 10.81, y: -0.2, z: 0.041136995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6293,7 +6293,7 @@ Transform:
   m_GameObject: {fileID: 1910441119}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.97, y: 5.33, z: 0}
+  m_LocalPosition: {x: -7.99, y: 4.81, z: 0}
   m_LocalScale: {x: 0.65, y: 0.65, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6313,6 +6313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 0}
   speed: 2
+  vida: 0
+  contEnemy: 0
+  textHeart: {fileID: 0}
   move: {fileID: 1910441127}
 --- !u!50 &1910441124
 Rigidbody2D:
@@ -6364,6 +6367,12 @@ MonoBehaviour:
   ColisaoA: {fileID: 0}
   ColisaoB: {fileID: 0}
   Explosion: {fileID: 0}
+  Ex: {fileID: 0}
+  triggerA: {fileID: 0}
+  triggerB: {fileID: 0}
+  bomb: {fileID: 0}
+  alignedPosition: {x: 0, y: 0, z: 0}
+  porta: 0
 --- !u!58 &1910441126
 CircleCollider2D:
   m_ObjectHideFlags: 0
