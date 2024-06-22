@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class BolaDeFogo : MonoBehaviour
 {
@@ -20,18 +21,22 @@ public class BolaDeFogo : MonoBehaviour
         {
             
             SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+            Light2DBase luz = GetComponent<Light2DBase>();
             
             sprite.enabled = false;
+            luz.enabled = false;
 
             
 
         }
         if (other.CompareTag("bomba"))
         {
-            
+
             SpriteRenderer sprite = GetComponent<SpriteRenderer>();
-            
+            Light2DBase luz = GetComponent<Light2DBase>();
+
             sprite.enabled = false;
+            luz.enabled = false;
 
             StartCoroutine(Kabummm());
 
