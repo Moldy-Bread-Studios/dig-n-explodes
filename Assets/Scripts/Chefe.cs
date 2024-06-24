@@ -28,7 +28,8 @@ public class Chefe : MonoBehaviour
 
     //bola de fogo
     public GameObject fireBall;
-    Rigidbody2D rb;
+    public bool timer = false;
+    
 
     //vida
     public int vidas = 4;
@@ -43,11 +44,10 @@ public class Chefe : MonoBehaviour
         noHit = false;
         death = false;
         box = GetComponent<Collider2D>();
-        box.enabled = false;
         sprite = gameObject.GetComponent<SpriteRenderer>();
         WayAtual = WayA;
         velocidade = velocidadeAtual;
-        rb = fireBall.GetComponent<Rigidbody2D>();
+        //rb = fireBall.GetComponent<Rigidbody2D>();
 
     }
 
@@ -61,9 +61,7 @@ public class Chefe : MonoBehaviour
         if(transform.position == WayAtual.position && Vector2.Distance(transform.position, WayAtual.position) < 0.1f)
         {
             StartCoroutine(Buraco());
-            
-            
-
+      
         }
 
         transform.position = Vector3.MoveTowards(transform.position, WayAtual.position, velocidade * Time.deltaTime);
@@ -123,9 +121,7 @@ public class Chefe : MonoBehaviour
 
     public IEnumerator Attack()
     {
-            
-
-
+        StartCoroutine(Timer());
         velocidade = 0;
         anime.SetTrigger("Attack");
         anime.SetBool("IsWalking", false);
@@ -135,22 +131,28 @@ public class Chefe : MonoBehaviour
 
         anime.SetBool("IsWalking", true);
         velocidade = velocidadeAtual;
-        yield return new WaitForSeconds(2);
+        
     }
 
     private IEnumerator FireBall()
     {
-        Transform point = fireBall.GetComponent<Transform>();
-       
-        
-        SpriteRenderer sprite = fireBall.GetComponent<SpriteRenderer>();
+        Transform point;
+        Rigidbody2D rb;
+        SpriteRenderer sprite;
         
         
         yield return new WaitForSeconds(1);
-        sprite.enabled = true;
+        GameObject pointe = Instantiate(fireBall, transform.position, Quaternion.identity);
+            
+            
+            point = pointe.gameObject.GetComponent<Transform>();
+            rb = pointe.gameObject.GetComponent<Rigidbody2D>();
+            sprite = pointe.gameObject.GetComponent<SpriteRenderer>();
         
         if (transform.localScale.x < 0f)
         {
+            
+
             sprite.flipX = false;
             point.position = new Vector2(transform.position.x, transform.position.y);
             rb.AddForce(Vector2.right * 10f, ForceMode2D.Impulse);
@@ -158,17 +160,18 @@ public class Chefe : MonoBehaviour
         }
         else if (transform.localScale.x > 0f)
         {
+            
+
             sprite.flipX = true;
             point.position = new Vector2(transform.position.x, transform.position.y);
             rb.AddForce(Vector2.left * 10f, ForceMode2D.Impulse);
-            
-            
+
+
         }
 
         yield return new WaitForSeconds(2.5f);
 
-        rb.velocity = Vector2.zero;
-        point.position = new Vector2(20f, 20f);
+        Destroy(pointe);
     }
 
     public IEnumerator Hit()
@@ -197,6 +200,13 @@ public class Chefe : MonoBehaviour
             }
         }
         noHit = false;
+    }
+
+    public IEnumerator Timer()
+    {
+        timer = true;
+        yield return new WaitForSeconds(2);
+        timer = false;
     }
  
 }
