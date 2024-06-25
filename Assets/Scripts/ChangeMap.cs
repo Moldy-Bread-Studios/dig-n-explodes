@@ -7,7 +7,15 @@ public class ChangeMap : MonoBehaviour
 {
     public string Scene;
 
-    
+    void Update()
+    {
+        
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            SceneManager.LoadScene(Scene);
+        }
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
