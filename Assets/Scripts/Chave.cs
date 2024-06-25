@@ -4,6 +4,9 @@ using System.Linq;
 using UnityEngine;
 using Unity.VisualScripting;
 using UnityEngine.UI;
+using UnityEngine.U2D;
+
+
 
 public class Chave : MonoBehaviour
 {
@@ -11,6 +14,7 @@ public class Chave : MonoBehaviour
     public Collider2D[] enemy;
     private int contador;
     public Text ContadorEnemy;
+    
 
 
     //chave 
@@ -19,8 +23,10 @@ public class Chave : MonoBehaviour
     private SpriteRenderer spriteKey;
     private Collider2D doorBox;
     private Animator doorAnime;
-
+    private Light2DBase Luz;
     
+
+
 
 
     // Start is called before the first frame update
@@ -30,6 +36,12 @@ public class Chave : MonoBehaviour
         spriteKey = GetComponent<SpriteRenderer>();
         doorBox = door.GetComponent<Collider2D>();
         doorAnime = door.GetComponent <Animator>();
+        
+        Luz = GetComponent<Light2DBase>();
+
+        
+
+        Luz.enabled = false;
         doorAnime.enabled = false;  
         doorBox.enabled = false;
         boxKey.enabled = false;
@@ -46,6 +58,7 @@ public class Chave : MonoBehaviour
         {
             boxKey.enabled = true;
             spriteKey.enabled = true;
+            Luz.enabled = true;
         }
 
         contador = enemy.Length;

@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
+using JetBrains.Annotations;
 
 public class Player : MonoBehaviour {
 
-    public GameObject deathEffect; // Efeito de morte
+    
     private Rigidbody2D playerRb;
     public float speed = 2f;
     float speedAtual;
@@ -26,6 +27,10 @@ public class Player : MonoBehaviour {
     public Animator move;
     private bool andando;
 
+    //dead
+    public GameObject GameOver;
+    private string cenaAtual;
+
     void Start() {
 
         playerRb = GetComponent<Rigidbody2D>();
@@ -34,10 +39,17 @@ public class Player : MonoBehaviour {
         sprite = GetComponent<SpriteRenderer>();
         noHit = false;
         box = GetComponent<Collider2D>();
-
        
 
-       
+       //GameOver
+
+        
+        cenaAtual = SceneManager.GetActiveScene().name;
+        GameOver.SetActive(false);
+
+         
+
+
 
     }
     
@@ -77,7 +89,7 @@ public class Player : MonoBehaviour {
     }
     private IEnumerator DestroyPlayer()
  {
-     
+       
         noHit = true;
      vida--;
      Debug.Log(vida);
@@ -91,17 +103,25 @@ public class Player : MonoBehaviour {
 
          if(vida <= 0)
          {
+                i = 9;
          speedAtual = 0f;
          move.SetTrigger("Morte");
          box.isTrigger = true;
          yield return new WaitForSeconds(1);
-         Destroy(gameObject);
+         GameOver.SetActive(true);
+         sprite.enabled = false;
          }
      }   
         noHit = false;
- }
+        
+    }
 
-    
+    public void Respawn()
+    {
+        SceneManager.LoadScene(cenaAtual);
+    }
+
+
 
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -139,6 +159,7 @@ public class Player : MonoBehaviour {
             }
         }
         
+
     }
 
 

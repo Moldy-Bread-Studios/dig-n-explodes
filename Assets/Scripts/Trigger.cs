@@ -27,10 +27,14 @@ public class Trigger : MonoBehaviour
         {
             if (other.CompareTag("Player"))
             {
-            if(!boss.noHit)
+            if (!boss.timer)
+            {
+                if(!boss.noHit)
             {
                 StartCoroutine(boss.Attack());
             }
+            }
+            
             
             }
         }

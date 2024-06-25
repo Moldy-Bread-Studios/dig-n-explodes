@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: a4235d7d994e5df4fa449b5294fcd5e1
   - enabled: 1
     path: Assets/Scenes/Fase1.unity
-    guid: b2163f7e44c68c4479d4e4961ff902b7
+    guid: 4ed93fdfbdb3860498092cd16d063403
   - enabled: 1
     path: Assets/Scenes/Fase2.unity
     guid: f3723d5c1d213cd4f92edb1487fd97ce
@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase5.unity
     guid: f240709fc11b26a48ab2647bdc60fd14
   - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: cc07c1a05c9b84047a60f53a4910924f
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 17d0f05bb1e459e479a79b7bf5d8a7e1
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: cc07c1a05c9b84047a60f53a4910924f
   m_configObjects: {}
