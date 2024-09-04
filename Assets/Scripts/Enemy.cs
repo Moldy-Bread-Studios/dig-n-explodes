@@ -56,36 +56,36 @@ public class Enemy : MonoBehaviour
        
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        // Reagir à colisão mudando o destino
-        if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            if (targetOfficial == targetA)
-            {
+    //void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    // Reagir à colisão mudando o destino
+    //    if (collision.gameObject.CompareTag("Obstacle"))
+    //    {
+    //        if (targetOfficial == targetA)
+    //        {
                
-                targetOfficial = targetB;
-                movimento.SetBool("eixo", false);
+    //            targetOfficial = targetB;
+    //            movimento.SetBool("eixo", false);
                 
-            }
-            else
-            {
-                targetOfficial = targetA;
-                movimento.SetBool("eixo", true);
-            }
-        }
-        if (collision.gameObject.CompareTag("Untagged"))
-        {
-            if (targetOfficial == targetA)
-            {
-                targetOfficial = targetB;
-            }
-            else
-            {
-                targetOfficial = targetA;
-            }
-        }
-    }
+    //        }
+    //        else
+    //        {
+    //            targetOfficial = targetA;
+    //            movimento.SetBool("eixo", true);
+    //        }
+    //    }
+    //    if (collision.gameObject.CompareTag("bomba"))
+    //    {
+    //        if (targetOfficial == targetA)
+    //        {
+    //            targetOfficial = targetB;
+    //        }
+    //        else
+    //        {
+    //            targetOfficial = targetA;
+    //        }
+    //    }
+    //}
 
     private void OnTriggerEnter2D(Collider2D other)
     {

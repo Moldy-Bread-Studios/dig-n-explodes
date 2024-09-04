@@ -7,32 +7,24 @@ public class ChangeMap : MonoBehaviour
 {
     public string Scene;
 
-    FadeInOut fade;
-
-    void Start()
+    void Update()
     {
-        fade = FindObjectOfType<FadeInOut>();
-    }
-     
-    public IEnumerator ChanceScene()
-    {
-        fade.FadeIn();
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(Scene);
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
+        
+        if (Input.GetKeyDown(KeyCode.H))
         {
-            StartCoroutine(ChanceScene());
+            SceneManager.LoadScene(Scene);
         }
     }
 
-  /*  private void CarregarNovaFase()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         SceneManager.LoadScene(Scene);
     }
-  */
+
+    private void CarregarNovaFase()
+    {
+        SceneManager.LoadScene(Scene);
+    }
+  
 }

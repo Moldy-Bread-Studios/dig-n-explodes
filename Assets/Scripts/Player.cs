@@ -3,24 +3,53 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEditor.SearchService;
+using Unity.VisualScripting;
+using JetBrains.Annotations;
 
 public class Player : MonoBehaviour {
 
-    public GameObject deathEffect; // Efeito de morte
-    private bool isAlive = true; // Verifica se o jogador está vivo
+    
     private Rigidbody2D playerRb;
-    public float speed = 2f; //que porra é essa ????????
+    public float speed = 2f;
     float speedAtual;
+    public int vida;
+    public int contEnemy;
+    public Text textHeart;
+    private SpriteRenderer sprite;
+    private bool noHit = false;
+    private Collider2D box;
+    
+
+
+  
 
     //animação
     public Animator move;
     private bool andando;
 
+    //dead
+    public GameObject GameOver;
+    private string cenaAtual;
+
     void Start() {
 
         playerRb = GetComponent<Rigidbody2D>();
         speedAtual = speed;  // Mova a inicialização de speedAtual para o método Start correto
+        vida = 3;
+        sprite = GetComponent<SpriteRenderer>();
+        noHit = false;
+        box = GetComponent<Collider2D>();
+       
+
+       //GameOver
+
+        
+        cenaAtual = SceneManager.GetActiveScene().name;
+        GameOver.SetActive(false);
+
+         
+
+
 
     }
     
@@ -49,57 +78,92 @@ public class Player : MonoBehaviour {
             move.SetTrigger("put");
         }
 
+        textHeart.text = vida.ToString();
+        
+      
+        
+        
+
+
+
     }
-    void DestroyPlayer()
+    private IEnumerator DestroyPlayer()
+ {
+       
+        noHit = true;
+     vida--;
+     Debug.Log(vida);
+
+     for(int i = 0; i < 10; i++)
+     {
+         sprite.enabled = false;
+         yield return new WaitForSeconds(0.1f);
+         sprite.enabled = true;
+         yield return new WaitForSeconds(0.1f);
+
+         if(vida <= 0)
+         {
+                i = 9;
+         speedAtual = 0f;
+         move.SetTrigger("Morte");
+         box.isTrigger = true;
+         yield return new WaitForSeconds(1);
+         GameOver.SetActive(true);
+         sprite.enabled = false;
+         }
+     }   
+        noHit = false;
+        
+    }
+
+    public void Respawn()
     {
-        // Verifica se o jogador já não foi destruído
-        if (isAlive)
-        {
-            isAlive = false; // Define o jogador como morto
-            // Adicione aqui qualquer lógica adicional, como efeitos de morte, contagem de vidas, etc.
-            Destroy(gameObject); // Destroi o objeto do jogador
-            Instantiate(deathEffect, transform.position, Quaternion.identity); // Instancia o efeito de morte
-        }
+        SceneManager.LoadScene(cenaAtual);
     }
+
+
 
 
     void OnCollisionEnter2D(Collision2D collision)
     {
 
-        // Verifica se a colisão ocorreu com um objeto inimigo
+       
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            if(!noHit)
+            {
+        Debug.Log("O jogador foi atingido pelo inimigo!");
 
-            Debug.Log("O jogador foi atingido pelo inimigo!");
-            // Executa a função para destruir o jogador
-            DestroyPlayer();
+                    StartCoroutine(DestroyPlayer());
+            }
+            
 
         }
+
 
     }
 
-  /*  void OnTriggerEnter2D(Collider2D other){
-    if(other.CompareTag("porta1")){
-        SceneManager.LoadScene(1);
+    private void OnTriggerEnter2D(Collider2D other){
+        if(other.CompareTag("kabum")){
+            if(!noHit)
+            {
+                StartCoroutine(DestroyPlayer());
+            }
+            
         }
-
-   if(other.CompareTag("porta2")){
-        SceneManager.LoadScene(2);
-        }
-
-    if(other.CompareTag("porta3")){
-        SceneManager.LoadScene(3);
+        if (other.CompareTag("bola"))
+        {
+            if (!noHit)
+            {
+                StartCoroutine(DestroyPlayer());
+            }
         }
         
-    if(other.CompareTag("porta4")){
-        SceneManager.LoadScene(4);
-        }
-        
-    if(other.CompareTag("final")){
-        SceneManager.LoadScene(5);
-        }
+
     }
-    */
+
+
+
+  
 
 }
-

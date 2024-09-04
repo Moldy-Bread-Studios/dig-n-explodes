@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using TreeEditor;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -100,16 +99,18 @@ public class Cobrinha : MonoBehaviour
 
     private IEnumerator Troca()
     {
-        velocidadeAtual = 0f;
+      
         posicaoA.position = new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z);
-
+        waypoitnActual = waypointB;
+        velocidadeAtual = 0;
+        box.isTrigger = false;
         yield return new WaitForSeconds(3);
 
         
         terraA.enabled = false;
         sprite.enabled = false;
         velocidadeAtual = velocidadeVariavel;
-        waypoitnActual = waypointB;
+        
         box.isTrigger = true;
 
     }
@@ -118,16 +119,18 @@ public class Cobrinha : MonoBehaviour
 
     private IEnumerator TrocaDnv()
     {
-        velocidadeAtual = 0f;
+        
         posicaoB.position = new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z);
-
+        waypoitnActual = waypointA;
+        velocidadeAtual = 0;
+        box.isTrigger = false;
         yield return new WaitForSeconds(3);
 
         
         terraB.enabled = false;
         sprite.enabled = false;
         velocidadeAtual = velocidadeVariavel;
-        waypoitnActual = waypointA;
+        
         box.isTrigger = true;
 
     }
@@ -141,8 +144,9 @@ public class Cobrinha : MonoBehaviour
             if (waypoitnActual == waypointA)
             {
 
-                velocidadeAtual = 0f;
-                box.isTrigger = false;
+                
+               
+
                 sprite.enabled = true;
                 terraA.enabled = true;
                 StartCoroutine(Troca());
@@ -151,15 +155,30 @@ public class Cobrinha : MonoBehaviour
             else
             {
 
-                velocidadeAtual = 0f;
-                box.isTrigger = false;
+                
+                
                 sprite.enabled = true;
                 terraB.enabled = true;
                 StartCoroutine(TrocaDnv());
 
             }
         }
+        
+            if (other.gameObject.CompareTag("kabum"))
+            {
+                if(velocidadeAtual == 0)
+                {
+                    box.enabled = false;
+                    sprite.enabled = false;
+                    waypoitnActual = null;
+                }
+                
+            }
+        
+        
     }
+
+    
 
 
 

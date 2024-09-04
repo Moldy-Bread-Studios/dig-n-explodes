@@ -18,16 +18,28 @@ public class Bomb : MonoBehaviour
     public GameObject ColisaoA;
     public GameObject ColisaoB;
     public GameObject Explosion;
+    
 
     //box
 
     private BoxCollider2D box;
 
+    //gambiarra
+
+    public GameObject Ex;
+    public GameObject triggerA;
+    public GameObject triggerB;
+    public GameObject bomb;
+    public Vector3 alignedPosition;
+    public bool porta = false;
 
 
-    private void OnEnable()
+
+    public void OnEnable()
     {
         bombRestantes = quantidadeBomb;
+        
+
     }
 
     
@@ -36,38 +48,64 @@ public class Bomb : MonoBehaviour
     {
         if (bombRestantes > 0 && Input.GetKeyDown(placeBombKey)) // se o seu invetario tiver mais bombas e apertar o espaço ele ativa
         {
+            porta = false;
             StartCoroutine(PlaceBomb());
         }
     }
 
 
-    private IEnumerator PlaceBomb()
+    public IEnumerator PlaceBomb()
     {
+        
         // Obtém a posição do jogador
         Vector3 playerPosition = transform.position;
 
         // Calcula a posição alinhada à grade
-        Vector3 alignedPosition = new Vector3(
+         alignedPosition = new Vector3(
             Mathf.Round(playerPosition.x / gridSize) * gridSize,
             Mathf.Round(playerPosition.y / gridSize) * gridSize,
             playerPosition.z  // Mantém a posição Z original
         );
 
-        GameObject bomb = Instantiate(bomba, alignedPosition, Quaternion.identity);
+        bomb = Instantiate(bomba, alignedPosition, Quaternion.identity);
+  
         bombRestantes--;
 
         box = bomb.GetComponent<BoxCollider2D>();
         box.isTrigger = true;
 
+            
         yield return new WaitForSeconds(timeBomb);
-       
-        Destroy(bomb);
-        bombRestantes++;
-        GameObject Ex = Instantiate(Explosion, alignedPosition, Quaternion.identity);
-        GameObject triggerA = Instantiate(ColisaoA, alignedPosition, Quaternion.identity);
-        GameObject triggerB = Instantiate(ColisaoB, alignedPosition, Quaternion.identity);
 
-        yield return new WaitForSeconds(1.5f);
+            
+        bombRestantes++;
+
+
+        if (!porta)
+        {
+            StartCoroutine(PartTwo());
+        }
+            
+
+        
+
+        
+        
+        
+        
+    }
+
+    
+
+    public IEnumerator PartTwo()
+    {
+        Destroy(bomb);
+        
+        Ex = Instantiate(Explosion, alignedPosition, Quaternion.identity);
+        triggerA = Instantiate(ColisaoA, alignedPosition, Quaternion.identity);
+        triggerB = Instantiate(ColisaoB, alignedPosition, Quaternion.identity);
+
+        yield return new WaitForSeconds(0.5f);
 
 
         Destroy(triggerA);
@@ -76,13 +114,20 @@ public class Bomb : MonoBehaviour
         box.isTrigger = true;
     }
 
+    
+
    
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Untagged"))
+        if(other.gameObject.CompareTag("bomba"))
         {
             box.isTrigger = false;
         }
+        
+
     }
+    
+
+
 }
